@@ -684,22 +684,6 @@ export const ITB_STATISTICS: OverallStatistics = {
         female: 2,
       },
     },
-    NaN: {
-      batch: null,
-      total: 177,
-      statusBreakdown: {
-        lulus: 0,
-        undurDiri: 0,
-        dikeluarkan: 0,
-        aktif: 0,
-        cuti: 0,
-        other: 177,
-      },
-      genderBreakdown: {
-        male: 0,
-        female: 177,
-      },
-    },
   },
   byProdi: {
     "100": {
