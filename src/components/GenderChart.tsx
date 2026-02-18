@@ -1,4 +1,11 @@
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  ResponsiveContainer,
+  Legend,
+  //   Tooltip,
+} from "recharts";
 import { GenderCount } from "../data/itbStatistics";
 
 interface GenderChartProps {
@@ -28,9 +35,9 @@ export function GenderChart({ genderBreakdown }: GenderChartProps) {
             fill="#8884d8"
             paddingAngle={5}
             dataKey="value"
-            label={({ name, percent }) =>
-              `${name}: ${(percent * 100).toFixed(1)}%`
-            }
+            // label={({ name, percent }) =>
+            //   `${name}: ${((percent ?? 0) * 100).toFixed(1)}%`
+            // }
           >
             {data.map((_, index) => (
               <Cell
@@ -39,9 +46,9 @@ export function GenderChart({ genderBreakdown }: GenderChartProps) {
               />
             ))}
           </Pie>
-          <Tooltip
+          {/* <Tooltip
             formatter={(value: number) => [value.toLocaleString(), "Jumlah"]}
-          />
+          /> */}
           <Legend />
         </PieChart>
       </ResponsiveContainer>
