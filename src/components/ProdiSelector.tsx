@@ -109,7 +109,20 @@ export function ProdiSelector({
             onKeyDown={handleKeyDown}
             className="block w-full px-4 py-3 pr-10 rounded-lg border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
           />
-          <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              if (isOpen) {
+                setIsOpen(false);
+                setSearchTerm("");
+              } else {
+                setIsOpen(true);
+                inputRef.current?.focus();
+              }
+            }}
+            className="absolute inset-y-0 right-0 flex items-center pr-3 cursor-pointer"
+          >
             <svg
               className={`w-5 h-5 text-gray-400 transition-transform ${isOpen ? "rotate-180" : ""}`}
               fill="none"
@@ -123,7 +136,7 @@ export function ProdiSelector({
                 d="M19 9l-7 7-7-7"
               />
             </svg>
-          </div>
+          </button>
         </div>
 
         {/* Selected value display when not searching */}
