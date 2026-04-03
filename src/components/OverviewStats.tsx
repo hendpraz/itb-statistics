@@ -35,11 +35,11 @@ export function OverviewStats({ stats }: OverviewStatsProps) {
       textColor: "text-red-700",
     },
     {
-      label: "Cuti",
-      value: stats.statusBreakdown.cuti,
-      color: "bg-orange-500",
-      bgColor: "bg-orange-50",
-      textColor: "text-orange-700",
+      label: "Non-Aktif",
+      value: stats.statusBreakdown.nonAktif,
+      color: "bg-purple-500",
+      bgColor: "bg-purple-50",
+      textColor: "text-purple-700",
     },
     {
       label: "Lainnya",
