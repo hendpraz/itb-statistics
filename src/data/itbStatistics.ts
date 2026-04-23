@@ -1,6 +1,6 @@
 /**
  * ITB Mahasiswa Statistics - Auto-generated
- * Generated at: 2026-04-03T05:46:46.793Z
+ * Generated at: 2026-04-23T09:58:42.054Z
  *
  * This file contains pre-computed statistics from mahasiswa data.
  * Do not edit manually - regenerate using generateITBStatistics.ts
@@ -62,20 +62,26 @@ export interface OverallStatistics {
 // ============== Static Data ==============
 
 export const ITB_STATISTICS: OverallStatistics = {
-  totalStudents: 90536,
-  uniqueStudents: 90294,
+  totalStudents: 90358,
+  uniqueStudents: 90116,
   statusBreakdown: {
     lulus: 52877,
     undurDiri: 2698,
     dikeluarkan: 725,
-    aktif: 11824,
+    aktif: 27159,
     nonAktif: 1518,
     cuti: 6,
-    other: 20888,
+    other: 5375,
+    otherStatusMap: {
+      "": 3640,
+      "meninggal dunia": 63,
+      selesai: 1670,
+      mutasi: 2,
+    },
   },
   genderBreakdown: {
     male: 45579,
-    female: 44957,
+    female: 44779,
   },
   byBatch: {
     "1957": {
@@ -89,6 +95,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -106,6 +115,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -123,6 +135,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -140,6 +155,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -157,6 +175,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -174,6 +195,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 1,
@@ -191,6 +215,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 1,
@@ -208,6 +233,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 0,
@@ -225,6 +251,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 5,
@@ -242,6 +269,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 5,
@@ -259,6 +287,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 23,
+        otherStatusMap: {
+          "": 23,
+        },
       },
       genderBreakdown: {
         male: 7,
@@ -276,6 +307,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 4,
+        otherStatusMap: {
+          "": 4,
+        },
       },
       genderBreakdown: {
         male: 6,
@@ -293,6 +327,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 28,
+        otherStatusMap: {
+          "": 28,
+        },
       },
       genderBreakdown: {
         male: 5,
@@ -310,6 +347,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 8,
+        otherStatusMap: {
+          "": 8,
+        },
       },
       genderBreakdown: {
         male: 11,
@@ -327,6 +367,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 13,
+        otherStatusMap: {
+          "": 13,
+        },
       },
       genderBreakdown: {
         male: 13,
@@ -344,6 +387,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 12,
+        otherStatusMap: {
+          "": 12,
+        },
       },
       genderBreakdown: {
         male: 7,
@@ -361,6 +407,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 12,
+        otherStatusMap: {
+          "": 12,
+        },
       },
       genderBreakdown: {
         male: 6,
@@ -378,6 +427,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 5,
+        otherStatusMap: {
+          "": 5,
+        },
       },
       genderBreakdown: {
         male: 13,
@@ -395,6 +447,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 5,
@@ -412,6 +467,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 8,
+        otherStatusMap: {
+          "": 8,
+        },
       },
       genderBreakdown: {
         male: 7,
@@ -429,6 +487,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 14,
+        otherStatusMap: {
+          "": 14,
+        },
       },
       genderBreakdown: {
         male: 9,
@@ -446,6 +507,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 123,
@@ -463,6 +525,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 298,
@@ -480,6 +545,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 3,
+        otherStatusMap: {
+          "meninggal dunia": 3,
+        },
       },
       genderBreakdown: {
         male: 1846,
@@ -497,6 +565,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+        },
       },
       genderBreakdown: {
         male: 2228,
@@ -514,6 +585,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 8,
+        otherStatusMap: {
+          "meninggal dunia": 6,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 3048,
@@ -531,6 +606,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 406,
+        otherStatusMap: {
+          "": 401,
+          "meninggal dunia": 5,
+        },
       },
       genderBreakdown: {
         male: 3695,
@@ -539,19 +618,23 @@ export const ITB_STATISTICS: OverallStatistics = {
     },
     "2017": {
       batch: 2017,
-      total: 5113,
+      total: 5112,
       statusBreakdown: {
         lulus: 4676,
         undurDiri: 244,
         dikeluarkan: 92,
-        aktif: 0,
+        aktif: 2,
         nonAktif: 15,
         cuti: 0,
-        other: 86,
+        other: 83,
+        otherStatusMap: {
+          "": 76,
+          "meninggal dunia": 7,
+        },
       },
       genderBreakdown: {
         male: 2904,
-        female: 2209,
+        female: 2208,
       },
     },
     "2018": {
@@ -561,10 +644,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 6030,
         undurDiri: 268,
         dikeluarkan: 55,
-        aktif: 9,
+        aktif: 69,
         nonAktif: 78,
         cuti: 0,
-        other: 144,
+        other: 84,
+        otherStatusMap: {
+          "meninggal dunia": 8,
+          "": 76,
+        },
       },
       genderBreakdown: {
         male: 3572,
@@ -578,10 +665,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 6727,
         undurDiri: 256,
         dikeluarkan: 75,
-        aktif: 23,
+        aktif: 247,
         nonAktif: 117,
         cuti: 0,
-        other: 336,
+        other: 112,
+        otherStatusMap: {
+          "meninggal dunia": 9,
+          "": 103,
+        },
       },
       genderBreakdown: {
         male: 4148,
@@ -595,10 +686,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 7016,
         undurDiri: 523,
         dikeluarkan: 79,
-        aktif: 127,
+        aktif: 453,
         nonAktif: 242,
         cuti: 0,
-        other: 447,
+        other: 121,
+        otherStatusMap: {
+          "": 113,
+          "meninggal dunia": 8,
+        },
       },
       genderBreakdown: {
         male: 4734,
@@ -612,10 +707,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 4874,
         undurDiri: 417,
         dikeluarkan: 69,
-        aktif: 289,
+        aktif: 2641,
         nonAktif: 283,
         cuti: 0,
-        other: 3297,
+        other: 945,
+        otherStatusMap: {
+          "": 935,
+          "meninggal dunia": 8,
+          mutasi: 2,
+        },
       },
       genderBreakdown: {
         male: 4708,
@@ -629,10 +729,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 2824,
         undurDiri: 208,
         dikeluarkan: 105,
-        aktif: 1040,
+        aktif: 4975,
         nonAktif: 338,
         cuti: 1,
-        other: 4719,
+        other: 784,
+        otherStatusMap: {
+          "": 95,
+          "meninggal dunia": 3,
+          selesai: 686,
+        },
       },
       genderBreakdown: {
         male: 5089,
@@ -646,10 +751,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1888,
         undurDiri: 113,
         dikeluarkan: 3,
-        aktif: 2023,
+        aktif: 6249,
         nonAktif: 308,
         cuti: 1,
-        other: 5518,
+        other: 1292,
+        otherStatusMap: {
+          selesai: 984,
+          "": 307,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 5109,
@@ -663,10 +773,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 543,
         undurDiri: 38,
         dikeluarkan: 0,
-        aktif: 3260,
+        aktif: 7470,
         nonAktif: 137,
         cuti: 4,
-        other: 5607,
+        other: 1397,
+        otherStatusMap: {
+          "": 1394,
+          "meninggal dunia": 3,
+        },
       },
       genderBreakdown: {
         male: 3976,
@@ -684,6 +798,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 0,
@@ -701,6 +816,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -718,6 +836,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -734,10 +855,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 0,
         undurDiri: 0,
         dikeluarkan: 0,
-        aktif: 0,
+        aktif: 74,
         nonAktif: 0,
         cuti: 0,
-        other: 1665,
+        other: 1591,
+        otherStatusMap: {
+          selesai: 974,
+          "": 617,
+        },
       },
       genderBreakdown: {
         male: 447,
@@ -754,6 +879,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 506,
+            otherStatusMap: {
+              "": 506,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -771,6 +899,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 346,
+            otherStatusMap: {
+              selesai: 340,
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 149,
@@ -788,6 +920,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 640,
+            otherStatusMap: {
+              selesai: 634,
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 271,
@@ -801,10 +937,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 74,
             nonAktif: 0,
             cuti: 0,
-            other: 173,
+            other: 99,
+            otherStatusMap: {
+              "": 99,
+            },
           },
           genderBreakdown: {
             male: 27,
@@ -822,10 +961,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 893,
         undurDiri: 23,
         dikeluarkan: 7,
-        aktif: 37,
+        aktif: 317,
         nonAktif: 14,
         cuti: 0,
-        other: 284,
+        other: 4,
+        otherStatusMap: {
+          "meninggal dunia": 4,
+        },
       },
       genderBreakdown: {
         male: 652,
@@ -842,6 +984,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -861,6 +1004,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -880,6 +1024,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -899,6 +1044,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -918,6 +1064,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -939,6 +1086,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -960,6 +1108,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 54,
@@ -981,6 +1130,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -1003,6 +1153,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 65,
@@ -1025,6 +1178,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 68,
@@ -1047,6 +1203,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 62,
@@ -1065,10 +1224,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 104,
             undurDiri: 0,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 6,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 59,
@@ -1086,10 +1248,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 102,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -1105,10 +1268,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 61,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 30,
             nonAktif: 1,
             cuti: 0,
-            other: 30,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -1124,10 +1288,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 17,
+            aktif: 101,
             nonAktif: 1,
             cuti: 0,
-            other: 84,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -1141,10 +1306,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 93,
             nonAktif: 2,
             cuti: 0,
-            other: 82,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 50,
@@ -1158,10 +1324,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 87,
             nonAktif: 0,
             cuti: 0,
-            other: 78,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -1179,10 +1346,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 795,
         undurDiri: 49,
         dikeluarkan: 23,
-        aktif: 74,
+        aktif: 369,
         nonAktif: 23,
         cuti: 0,
-        other: 300,
+        other: 5,
+        otherStatusMap: {
+          "meninggal dunia": 5,
+        },
       },
       genderBreakdown: {
         male: 791,
@@ -1199,6 +1369,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -1216,6 +1387,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -1235,6 +1407,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -1256,6 +1429,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -1278,6 +1452,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 63,
@@ -1300,6 +1477,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -1322,6 +1500,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 74,
@@ -1344,6 +1523,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 54,
@@ -1366,6 +1546,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 85,
@@ -1384,10 +1565,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 99,
             undurDiri: 1,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 5,
             cuti: 0,
-            other: 5,
+            other: 3,
+            otherStatusMap: {
+              "meninggal dunia": 3,
+            },
           },
           genderBreakdown: {
             male: 61,
@@ -1406,10 +1590,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 94,
             undurDiri: 7,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 11,
             nonAktif: 3,
             cuti: 0,
-            other: 11,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 61,
@@ -1427,10 +1612,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 65,
             undurDiri: 6,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 10,
             nonAktif: 1,
             cuti: 0,
-            other: 10,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -1448,10 +1634,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 39,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 36,
             nonAktif: 0,
             cuti: 0,
-            other: 36,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 50,
@@ -1467,10 +1654,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 6,
             dikeluarkan: 2,
-            aktif: 33,
+            aktif: 109,
             nonAktif: 5,
             cuti: 0,
-            other: 77,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 67,
@@ -1484,10 +1674,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 21,
+            aktif: 98,
             nonAktif: 6,
             cuti: 0,
-            other: 77,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 55,
@@ -1501,10 +1692,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 20,
+            aktif: 103,
             nonAktif: 2,
             cuti: 0,
-            other: 83,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 77,
@@ -1522,10 +1714,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 306,
         undurDiri: 30,
         dikeluarkan: 14,
-        aktif: 33,
+        aktif: 207,
         nonAktif: 5,
         cuti: 0,
-        other: 174,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 296,
@@ -1542,6 +1735,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -1559,6 +1753,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -1578,6 +1773,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -1599,6 +1795,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -1621,6 +1818,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -1643,6 +1841,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -1665,6 +1864,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -1687,6 +1887,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -1705,10 +1906,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 40,
             undurDiri: 2,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 2,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -1726,10 +1928,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 42,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -1746,10 +1949,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 38,
             undurDiri: 7,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 7,
             nonAktif: 1,
             cuti: 0,
-            other: 6,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -1766,10 +1970,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 21,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 23,
             nonAktif: 0,
             cuti: 0,
-            other: 23,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -1785,10 +1990,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 1,
-            aktif: 11,
+            aktif: 60,
             nonAktif: 1,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -1802,10 +2008,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 14,
+            aktif: 55,
             nonAktif: 1,
             cuti: 0,
-            other: 41,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -1819,10 +2026,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 55,
             nonAktif: 0,
             cuti: 0,
-            other: 48,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -1840,10 +2048,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 314,
         undurDiri: 7,
         dikeluarkan: 2,
-        aktif: 25,
+        aktif: 174,
         nonAktif: 5,
         cuti: 0,
-        other: 157,
+        other: 8,
+        otherStatusMap: {
+          selesai: 5,
+          "": 3,
+        },
       },
       genderBreakdown: {
         male: 174,
@@ -1860,6 +2072,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -1877,6 +2090,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -1896,6 +2110,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -1916,6 +2131,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -1937,6 +2153,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -1959,6 +2176,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -1980,6 +2198,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -2001,6 +2220,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -2022,6 +2242,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -2040,10 +2261,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 41,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -2060,10 +2282,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 34,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 4,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -2079,10 +2302,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 4,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 29,
             nonAktif: 0,
             cuti: 0,
-            other: 31,
+            other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -2098,10 +2324,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 46,
             nonAktif: 0,
             cuti: 0,
-            other: 37,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 14,
@@ -2115,10 +2344,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 48,
             nonAktif: 0,
             cuti: 0,
-            other: 41,
+            other: 4,
+            otherStatusMap: {
+              selesai: 4,
+            },
           },
           genderBreakdown: {
             male: 17,
@@ -2132,10 +2364,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 43,
             nonAktif: 0,
             cuti: 0,
-            other: 41,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 14,
@@ -2153,10 +2388,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 720,
         undurDiri: 38,
         dikeluarkan: 13,
-        aktif: 93,
+        aktif: 407,
         nonAktif: 12,
         cuti: 0,
-        other: 329,
+        other: 15,
+        otherStatusMap: {
+          "": 15,
+        },
       },
       genderBreakdown: {
         male: 431,
@@ -2173,6 +2411,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2190,6 +2429,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2207,6 +2447,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2226,6 +2467,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2245,6 +2487,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -2266,6 +2509,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -2287,6 +2531,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -2310,6 +2555,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -2332,6 +2578,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -2354,6 +2601,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -2376,6 +2624,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -2394,10 +2643,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 90,
             undurDiri: 2,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 3,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -2416,10 +2666,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 85,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 10,
             nonAktif: 1,
             cuti: 0,
-            other: 10,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -2436,10 +2687,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 90,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 11,
             nonAktif: 0,
             cuti: 0,
-            other: 10,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -2456,10 +2708,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 9,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 76,
             nonAktif: 1,
             cuti: 0,
-            other: 91,
+            other: 15,
+            otherStatusMap: {
+              "": 15,
+            },
           },
           genderBreakdown: {
             male: 31,
@@ -2475,10 +2730,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 30,
+            aktif: 104,
             nonAktif: 4,
             cuti: 0,
-            other: 74,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -2492,10 +2748,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 33,
+            aktif: 103,
             nonAktif: 3,
             cuti: 0,
-            other: 70,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -2509,10 +2766,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 29,
+            aktif: 101,
             nonAktif: 0,
             cuti: 0,
-            other: 72,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -2530,10 +2788,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 578,
         undurDiri: 21,
         dikeluarkan: 10,
-        aktif: 46,
+        aktif: 342,
         nonAktif: 18,
         cuti: 1,
-        other: 305,
+        other: 9,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 5,
+          "": 3,
+        },
       },
       genderBreakdown: {
         male: 310,
@@ -2550,6 +2813,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2567,6 +2831,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -2586,6 +2851,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -2606,6 +2872,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -2626,6 +2893,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -2648,6 +2916,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -2670,6 +2939,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -2692,6 +2962,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -2714,6 +2985,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 25,
@@ -2736,6 +3010,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -2753,10 +3028,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 72,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 8,
             nonAktif: 3,
             cuti: 0,
-            other: 8,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -2773,10 +3049,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 47,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 9,
             nonAktif: 5,
             cuti: 0,
-            other: 9,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -2793,10 +3070,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 9,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 47,
             nonAktif: 1,
             cuti: 0,
-            other: 50,
+            other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 15,
@@ -2812,10 +3092,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 85,
             nonAktif: 4,
             cuti: 0,
-            other: 79,
+            other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 22,
@@ -2829,10 +3112,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 12,
+            aktif: 88,
             nonAktif: 2,
             cuti: 1,
-            other: 79,
+            other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 25,
@@ -2846,10 +3132,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 24,
+            aktif: 103,
             nonAktif: 1,
             cuti: 0,
-            other: 79,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -2867,10 +3154,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 915,
         undurDiri: 13,
         dikeluarkan: 7,
-        aktif: 22,
+        aktif: 364,
         nonAktif: 3,
         cuti: 0,
-        other: 344,
+        other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 219,
@@ -2887,6 +3177,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2906,6 +3197,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -2923,6 +3215,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -2943,6 +3236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -2965,6 +3259,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -2986,6 +3281,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -3007,6 +3303,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -3029,6 +3326,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -3049,6 +3347,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -3070,6 +3369,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -3086,10 +3386,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 112,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 19,
@@ -3106,10 +3409,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 59,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 41,
             nonAktif: 0,
             cuti: 0,
-            other: 41,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -3125,10 +3429,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 4,
             dikeluarkan: 2,
-            aktif: 9,
+            aktif: 102,
             nonAktif: 1,
             cuti: 0,
-            other: 93,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -3142,10 +3447,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 110,
             nonAktif: 2,
             cuti: 0,
-            other: 101,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3159,10 +3465,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 108,
             nonAktif: 0,
             cuti: 0,
-            other: 106,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 14,
@@ -3180,10 +3489,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 174,
         undurDiri: 1,
         dikeluarkan: 0,
-        aktif: 13,
+        aktif: 196,
         nonAktif: 3,
         cuti: 0,
-        other: 183,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 201,
@@ -3200,6 +3510,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3217,10 +3528,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -3237,10 +3549,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 47,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 2,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -3257,10 +3570,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 28,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 22,
             nonAktif: 0,
             cuti: 0,
-            other: 22,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3276,10 +3590,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 50,
             nonAktif: 0,
             cuti: 0,
-            other: 47,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -3293,10 +3608,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 60,
             nonAktif: 0,
             cuti: 0,
-            other: 54,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -3310,10 +3626,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 60,
             nonAktif: 0,
             cuti: 0,
-            other: 56,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -3331,10 +3648,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 341,
         undurDiri: 9,
         dikeluarkan: 8,
-        aktif: 19,
+        aktif: 174,
         nonAktif: 3,
         cuti: 0,
-        other: 173,
+        other: 18,
+        otherStatusMap: {
+          selesai: 3,
+          "": 15,
+        },
       },
       genderBreakdown: {
         male: 208,
@@ -3351,6 +3672,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 15,
+            otherStatusMap: {
+              "": 15,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -3368,6 +3692,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -3387,6 +3712,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -3408,6 +3734,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -3428,6 +3755,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -3448,6 +3776,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -3468,6 +3797,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -3488,6 +3818,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -3504,10 +3835,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 48,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -3524,10 +3856,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 42,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -3543,10 +3876,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 21,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 27,
             nonAktif: 0,
             cuti: 0,
-            other: 27,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -3562,10 +3896,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 48,
             nonAktif: 0,
             cuti: 0,
-            other: 40,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -3579,10 +3914,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 50,
             nonAktif: 0,
             cuti: 0,
-            other: 45,
+            other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -3596,10 +3934,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 47,
             nonAktif: 1,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3617,10 +3956,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 439,
         undurDiri: 14,
         dikeluarkan: 11,
-        aktif: 40,
+        aktif: 270,
         nonAktif: 13,
         cuti: 0,
-        other: 232,
+        other: 2,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 266,
@@ -3637,6 +3980,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -3656,6 +4000,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -3678,6 +4023,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -3699,6 +4045,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 25,
@@ -3720,6 +4069,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3741,6 +4091,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -3759,10 +4110,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 41,
             undurDiri: 3,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -3780,10 +4132,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -3800,10 +4153,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 47,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -3819,10 +4173,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 24,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 45,
             nonAktif: 3,
             cuti: 0,
-            other: 45,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -3838,10 +4193,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 16,
+            aktif: 74,
             nonAktif: 2,
             cuti: 0,
-            other: 58,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -3855,10 +4211,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 15,
+            aktif: 83,
             nonAktif: 4,
             cuti: 0,
-            other: 68,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -3872,10 +4229,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 62,
             nonAktif: 2,
             cuti: 0,
-            other: 53,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -3893,6 +4251,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -3910,10 +4271,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 396,
         undurDiri: 15,
         dikeluarkan: 8,
-        aktif: 47,
+        aktif: 239,
         nonAktif: 14,
         cuti: 0,
-        other: 194,
+        other: 2,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 250,
@@ -3930,6 +4295,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -3950,6 +4316,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -3971,6 +4338,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -3991,6 +4359,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -4011,6 +4380,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -4031,6 +4401,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 16,
@@ -4048,10 +4421,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 54,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -4069,10 +4443,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 45,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -4088,10 +4463,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 40,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 2,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -4108,10 +4484,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 25,
             undurDiri: 0,
             dikeluarkan: 4,
-            aktif: 0,
+            aktif: 33,
             nonAktif: 1,
             cuti: 0,
-            other: 33,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -4127,10 +4504,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 11,
+            aktif: 62,
             nonAktif: 0,
             cuti: 0,
-            other: 52,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 23,
@@ -4144,10 +4524,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 22,
+            aktif: 81,
             nonAktif: 7,
             cuti: 0,
-            other: 59,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -4161,10 +4542,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 14,
+            aktif: 58,
             nonAktif: 2,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -4182,10 +4564,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 381,
         undurDiri: 13,
         dikeluarkan: 0,
-        aktif: 17,
+        aktif: 139,
         nonAktif: 3,
         cuti: 0,
-        other: 122,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 72,
@@ -4202,6 +4585,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -4221,6 +4605,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -4241,6 +4626,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -4263,6 +4649,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -4284,6 +4671,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -4307,6 +4695,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -4329,6 +4718,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -4351,6 +4741,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -4373,6 +4764,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -4390,10 +4782,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 27,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 0,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -4410,10 +4803,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 26,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 15,
             nonAktif: 0,
             cuti: 0,
-            other: 15,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -4429,10 +4823,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 37,
             nonAktif: 1,
             cuti: 0,
-            other: 33,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -4446,10 +4841,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 42,
             nonAktif: 2,
             cuti: 0,
-            other: 37,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -4463,10 +4859,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 41,
             nonAktif: 0,
             cuti: 0,
-            other: 33,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -4484,10 +4881,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 263,
         undurDiri: 6,
         dikeluarkan: 5,
-        aktif: 42,
+        aktif: 227,
         nonAktif: 3,
         cuti: 0,
-        other: 185,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 135,
@@ -4504,6 +4902,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -4525,6 +4924,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -4546,6 +4946,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -4566,6 +4967,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -4583,10 +4985,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -4608,6 +5011,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -4623,10 +5027,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 37,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 12,
             nonAktif: 0,
             cuti: 0,
-            other: 12,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -4642,10 +5047,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 68,
             nonAktif: 1,
             cuti: 0,
-            other: 57,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -4659,10 +5065,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 20,
+            aktif: 82,
             nonAktif: 2,
             cuti: 0,
-            other: 62,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -4676,10 +5083,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 64,
             nonAktif: 0,
             cuti: 0,
-            other: 53,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -4697,10 +5105,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 644,
         undurDiri: 7,
         dikeluarkan: 2,
-        aktif: 53,
+        aktif: 376,
         nonAktif: 13,
         cuti: 1,
-        other: 363,
+        other: 40,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 29,
+          "": 10,
+        },
       },
       genderBreakdown: {
         male: 738,
@@ -4717,6 +5130,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -4736,6 +5150,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -4755,6 +5170,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -4774,6 +5190,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -4796,6 +5213,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -4818,6 +5236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 67,
@@ -4840,6 +5259,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -4862,6 +5282,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 65,
@@ -4885,6 +5308,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -4907,6 +5331,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 58,
@@ -4925,10 +5350,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 72,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 3,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -4945,10 +5371,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 67,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 3,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -4965,10 +5392,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 3,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 67,
             nonAktif: 2,
             cuti: 0,
-            other: 67,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 48,
@@ -4984,10 +5412,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 17,
+            aktif: 101,
             nonAktif: 1,
             cuti: 0,
-            other: 111,
+            other: 27,
+            otherStatusMap: {
+              selesai: 27,
+            },
           },
           genderBreakdown: {
             male: 65,
@@ -5001,10 +5432,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 16,
+            aktif: 99,
             nonAktif: 2,
             cuti: 0,
-            other: 95,
+            other: 12,
+            otherStatusMap: {
+              "": 10,
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 52,
@@ -5018,10 +5453,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 20,
+            aktif: 104,
             nonAktif: 1,
             cuti: 1,
-            other: 84,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 71,
@@ -5039,10 +5475,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 765,
         undurDiri: 10,
         dikeluarkan: 6,
-        aktif: 58,
+        aktif: 484,
         nonAktif: 22,
         cuti: 0,
-        other: 429,
+        other: 3,
+        otherStatusMap: {
+          selesai: 2,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 973,
@@ -5059,6 +5499,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -5076,6 +5519,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5093,6 +5537,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5110,6 +5555,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -5131,6 +5577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 77,
@@ -5154,6 +5601,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 68,
@@ -5176,6 +5624,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 65,
@@ -5198,6 +5647,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 71,
@@ -5220,6 +5670,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 68,
@@ -5242,6 +5693,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 65,
@@ -5258,10 +5710,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 86,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 70,
@@ -5279,10 +5732,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 134,
             undurDiri: 0,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 104,
@@ -5299,10 +5753,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 13,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 104,
             nonAktif: 1,
             cuti: 0,
-            other: 104,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 88,
@@ -5318,10 +5773,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 23,
+            aktif: 130,
             nonAktif: 4,
             cuti: 0,
-            other: 107,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 92,
@@ -5335,10 +5791,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 15,
+            aktif: 126,
             nonAktif: 8,
             cuti: 0,
-            other: 113,
+            other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 104,
@@ -5352,10 +5811,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 20,
+            aktif: 122,
             nonAktif: 4,
             cuti: 0,
-            other: 102,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 92,
@@ -5373,10 +5833,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 883,
         undurDiri: 17,
         dikeluarkan: 9,
-        aktif: 48,
+        aktif: 486,
         nonAktif: 19,
         cuti: 0,
-        other: 444,
+        other: 6,
+        otherStatusMap: {
+          "": 4,
+          selesai: 2,
+        },
       },
       genderBreakdown: {
         male: 1078,
@@ -5393,6 +5857,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5410,6 +5875,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5427,6 +5893,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5446,6 +5913,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -5465,6 +5933,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -5485,6 +5954,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -5505,6 +5975,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 89,
@@ -5526,6 +5997,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 82,
@@ -5546,6 +6018,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 86,
@@ -5567,6 +6042,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 86,
@@ -5588,6 +6064,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 74,
@@ -5605,10 +6082,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 93,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 73,
@@ -5626,10 +6104,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 98,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 67,
@@ -5648,10 +6127,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 141,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 103,
@@ -5668,10 +6148,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 73,
             nonAktif: 3,
             cuti: 0,
-            other: 73,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 92,
@@ -5687,10 +6168,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 14,
+            aktif: 140,
             nonAktif: 3,
             cuti: 0,
-            other: 131,
+            other: 5,
+            otherStatusMap: {
+              "": 3,
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 110,
@@ -5704,10 +6189,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 134,
             nonAktif: 6,
             cuti: 0,
-            other: 124,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 100,
@@ -5721,10 +6207,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 24,
+            aktif: 132,
             nonAktif: 5,
             cuti: 0,
-            other: 108,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 100,
@@ -5742,10 +6229,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 547,
         undurDiri: 29,
         dikeluarkan: 18,
-        aktif: 49,
+        aktif: 388,
         nonAktif: 21,
         cuti: 0,
-        other: 342,
+        other: 3,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 683,
@@ -5762,6 +6253,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -5781,6 +6273,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -5801,6 +6294,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -5823,6 +6317,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 47,
@@ -5843,6 +6338,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 54,
@@ -5865,6 +6361,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 40,
@@ -5887,6 +6384,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 54,
@@ -5909,6 +6407,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 55,
@@ -5928,10 +6429,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 89,
             undurDiri: 7,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 6,
             cuti: 0,
-            other: 9,
+            other: 2,
+            otherStatusMap: {
+              "": 1,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 77,
@@ -5949,10 +6454,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 51,
             undurDiri: 4,
             dikeluarkan: 2,
-            aktif: 3,
+            aktif: 16,
             nonAktif: 1,
             cuti: 0,
-            other: 13,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -5969,10 +6475,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 7,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 86,
             nonAktif: 2,
             cuti: 0,
-            other: 86,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 65,
@@ -5988,10 +6495,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 23,
+            aktif: 95,
             nonAktif: 6,
             cuti: 0,
-            other: 72,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -6005,10 +6513,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 82,
             nonAktif: 2,
             cuti: 0,
-            other: 71,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -6022,10 +6531,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 12,
+            aktif: 102,
             nonAktif: 3,
             cuti: 0,
-            other: 90,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 61,
@@ -6047,6 +6557,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 1,
@@ -6063,6 +6574,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6080,10 +6592,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 591,
         undurDiri: 6,
         dikeluarkan: 2,
-        aktif: 41,
+        aktif: 322,
         nonAktif: 10,
         cuti: 1,
-        other: 284,
+        other: 3,
+        otherStatusMap: {
+          "": 2,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 701,
@@ -6100,6 +6616,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6119,6 +6636,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6138,6 +6656,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -6158,6 +6677,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 39,
@@ -6179,6 +6701,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 52,
@@ -6200,6 +6723,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 53,
@@ -6221,6 +6747,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 57,
@@ -6243,6 +6770,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -6265,6 +6793,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 57,
@@ -6282,10 +6811,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 78,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -6303,10 +6833,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 84,
             undurDiri: 3,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 1,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 72,
@@ -6324,10 +6855,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 18,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 57,
             nonAktif: 3,
             cuti: 0,
-            other: 58,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 59,
@@ -6343,10 +6877,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 18,
+            aktif: 89,
             nonAktif: 1,
             cuti: 0,
-            other: 71,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -6360,10 +6895,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 14,
+            aktif: 87,
             nonAktif: 4,
             cuti: 0,
-            other: 73,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -6377,10 +6913,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 82,
             nonAktif: 1,
             cuti: 1,
-            other: 73,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -6398,10 +6935,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 325,
         undurDiri: 22,
         dikeluarkan: 6,
-        aktif: 45,
+        aktif: 218,
         nonAktif: 13,
         cuti: 0,
-        other: 173,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 254,
@@ -6418,6 +6956,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6435,6 +6974,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -6454,6 +6994,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -6474,6 +7015,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -6496,6 +7038,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -6518,6 +7061,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -6540,6 +7084,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -6561,6 +7106,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -6583,6 +7129,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -6604,6 +7151,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -6621,10 +7169,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 45,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -6642,10 +7191,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 36,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -6661,10 +7211,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 14,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 28,
             nonAktif: 1,
             cuti: 0,
-            other: 28,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -6680,10 +7231,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 12,
+            aktif: 56,
             nonAktif: 2,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -6697,10 +7249,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 14,
+            aktif: 63,
             nonAktif: 6,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -6714,10 +7267,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 19,
+            aktif: 68,
             nonAktif: 1,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -6735,10 +7289,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 331,
         undurDiri: 35,
         dikeluarkan: 11,
-        aktif: 84,
+        aktif: 391,
         nonAktif: 38,
         cuti: 0,
-        other: 307,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 450,
@@ -6755,6 +7310,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6772,6 +7328,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6791,6 +7348,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -6810,6 +7368,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -6831,6 +7390,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -6853,6 +7413,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -6874,6 +7435,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -6896,6 +7458,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -6918,6 +7481,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -6940,6 +7504,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -6958,10 +7523,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 42,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 5,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -6979,10 +7545,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 44,
             undurDiri: 11,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 6,
             nonAktif: 8,
             cuti: 0,
-            other: 6,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -6999,10 +7566,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 14,
             undurDiri: 1,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 49,
             nonAktif: 4,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -7018,10 +7586,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 3,
-            aktif: 39,
+            aktif: 111,
             nonAktif: 8,
             cuti: 0,
-            other: 72,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -7035,10 +7604,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 24,
+            aktif: 109,
             nonAktif: 8,
             cuti: 0,
-            other: 85,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -7052,10 +7622,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 21,
+            aktif: 112,
             nonAktif: 3,
             cuti: 0,
-            other: 91,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -7073,10 +7644,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 954,
         undurDiri: 35,
         dikeluarkan: 1,
-        aktif: 23,
+        aktif: 465,
         nonAktif: 13,
         cuti: 1,
-        other: 484,
+        other: 42,
+        otherStatusMap: {
+          selesai: 30,
+          "": 12,
+        },
       },
       genderBreakdown: {
         male: 890,
@@ -7093,6 +7668,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7110,6 +7686,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7131,6 +7708,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -7151,6 +7729,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 73,
@@ -7172,6 +7751,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 76,
@@ -7193,6 +7773,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 70,
@@ -7214,6 +7795,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 76,
@@ -7234,6 +7816,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 75,
@@ -7251,10 +7834,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 128,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 84,
@@ -7272,10 +7856,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 107,
             undurDiri: 7,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -7293,10 +7878,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 113,
             undurDiri: 10,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 8,
             nonAktif: 1,
             cuti: 0,
-            other: 8,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 78,
@@ -7313,10 +7899,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 24,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 88,
             nonAktif: 2,
             cuti: 0,
-            other: 88,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 71,
@@ -7332,10 +7919,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 118,
             nonAktif: 4,
             cuti: 1,
-            other: 117,
+            other: 4,
+            otherStatusMap: {
+              selesai: 4,
+            },
           },
           genderBreakdown: {
             male: 73,
@@ -7349,10 +7939,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 13,
+            aktif: 121,
             nonAktif: 5,
             cuti: 0,
-            other: 146,
+            other: 38,
+            otherStatusMap: {
+              "": 12,
+              selesai: 26,
+            },
           },
           genderBreakdown: {
             male: 83,
@@ -7366,10 +7960,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 126,
             nonAktif: 0,
             cuti: 0,
-            other: 121,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -7387,10 +7982,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1320,
         undurDiri: 42,
         dikeluarkan: 18,
-        aktif: 29,
+        aktif: 794,
         nonAktif: 51,
         cuti: 0,
-        other: 781,
+        other: 16,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+          selesai: 4,
+          "": 10,
+        },
       },
       genderBreakdown: {
         male: 1980,
@@ -7407,6 +8007,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7424,6 +8025,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7441,6 +8043,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7458,6 +8061,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -7477,6 +8081,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -7497,6 +8102,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -7518,6 +8124,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 133,
@@ -7539,6 +8146,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 143,
@@ -7561,6 +8169,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 141,
@@ -7583,6 +8192,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 171,
@@ -7605,6 +8215,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 165,
@@ -7623,10 +8236,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 166,
             undurDiri: 6,
             dikeluarkan: 5,
-            aktif: 0,
+            aktif: 9,
             nonAktif: 12,
             cuti: 0,
-            other: 9,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 175,
@@ -7645,10 +8259,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 166,
             undurDiri: 6,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 18,
             nonAktif: 14,
             cuti: 0,
-            other: 18,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 180,
@@ -7666,10 +8281,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 147,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 36,
             nonAktif: 11,
             cuti: 0,
-            other: 34,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 172,
@@ -7686,10 +8302,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 21,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 170,
             nonAktif: 3,
             cuti: 0,
-            other: 171,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 167,
@@ -7705,10 +8324,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 12,
+            aktif: 189,
             nonAktif: 4,
             cuti: 0,
-            other: 180,
+            other: 3,
+            otherStatusMap: {
+              selesai: 2,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 169,
@@ -7722,10 +8345,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 199,
             nonAktif: 7,
             cuti: 0,
-            other: 200,
+            other: 11,
+            otherStatusMap: {
+              selesai: 2,
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 190,
@@ -7739,10 +8366,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 173,
             nonAktif: 0,
             cuti: 0,
-            other: 168,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 146,
@@ -7760,10 +8388,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 841,
         undurDiri: 36,
         dikeluarkan: 14,
-        aktif: 25,
+        aktif: 397,
         nonAktif: 3,
         cuti: 0,
-        other: 379,
+        other: 7,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 6,
+        },
       },
       genderBreakdown: {
         male: 1089,
@@ -7780,6 +8412,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7797,6 +8430,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7814,6 +8448,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -7831,6 +8466,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -7850,6 +8486,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -7870,6 +8507,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -7891,6 +8529,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 126,
@@ -7913,6 +8552,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 128,
@@ -7935,6 +8575,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 80,
@@ -7958,6 +8599,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 97,
@@ -7981,6 +8623,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 77,
@@ -7999,10 +8642,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 76,
             undurDiri: 4,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 72,
@@ -8020,10 +8664,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 64,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 1,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 66,
@@ -8041,10 +8688,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 44,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 17,
             nonAktif: 0,
             cuti: 0,
-            other: 16,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -8061,10 +8709,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 62,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 28,
             nonAktif: 0,
             cuti: 0,
-            other: 28,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -8081,10 +8730,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 119,
             nonAktif: 0,
             cuti: 0,
-            other: 112,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 105,
@@ -8098,10 +8748,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 118,
             nonAktif: 1,
             cuti: 0,
-            other: 116,
+            other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 100,
@@ -8115,10 +8768,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 110,
             nonAktif: 0,
             cuti: 0,
-            other: 101,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 91,
@@ -8136,10 +8790,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 695,
         undurDiri: 36,
         dikeluarkan: 4,
-        aktif: 24,
+        aktif: 352,
         nonAktif: 12,
         cuti: 0,
-        other: 351,
+        other: 23,
+        otherStatusMap: {
+          "meninggal dunia": 4,
+          selesai: 19,
+        },
       },
       genderBreakdown: {
         male: 777,
@@ -8156,6 +8814,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -8173,6 +8832,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -8192,6 +8852,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -8212,6 +8873,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -8233,6 +8895,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 52,
@@ -8255,6 +8918,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 72,
@@ -8277,6 +8941,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 66,
@@ -8299,6 +8964,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 66,
@@ -8320,6 +8988,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 43,
@@ -8337,10 +9006,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 95,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 6,
             nonAktif: 1,
             cuti: 0,
-            other: 7,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 80,
@@ -8358,10 +9030,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 76,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 4,
             cuti: 0,
-            other: 8,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 69,
@@ -8378,10 +9053,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 27,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 48,
             nonAktif: 1,
             cuti: 0,
-            other: 49,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 57,
@@ -8397,10 +9075,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 7,
             dikeluarkan: 2,
-            aktif: 13,
+            aktif: 90,
             nonAktif: 3,
             cuti: 0,
-            other: 77,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 66,
@@ -8414,10 +9093,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 92,
             nonAktif: 2,
             cuti: 0,
-            other: 107,
+            other: 19,
+            otherStatusMap: {
+              selesai: 19,
+            },
           },
           genderBreakdown: {
             male: 74,
@@ -8431,10 +9113,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 109,
             nonAktif: 0,
             cuti: 0,
-            other: 102,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 65,
@@ -8452,10 +9135,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 996,
         undurDiri: 28,
         dikeluarkan: 9,
-        aktif: 48,
+        aktif: 631,
         nonAktif: 26,
         cuti: 0,
-        other: 613,
+        other: 30,
+        otherStatusMap: {
+          "": 27,
+          "meninggal dunia": 2,
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 854,
@@ -8472,6 +9160,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -8489,6 +9178,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -8506,6 +9196,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -8525,6 +9216,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -8544,6 +9236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -8565,6 +9258,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -8587,6 +9281,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 51,
@@ -8609,6 +9304,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "meninggal dunia": 2,
+            },
           },
           genderBreakdown: {
             male: 58,
@@ -8631,6 +9329,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 77,
@@ -8649,10 +9348,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 124,
             undurDiri: 2,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 70,
@@ -8671,10 +9371,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 131,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 2,
             cuti: 0,
-            other: 5,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 69,
@@ -8692,10 +9395,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 146,
             undurDiri: 5,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 12,
             nonAktif: 4,
             cuti: 0,
-            other: 12,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 92,
@@ -8712,10 +9416,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 128,
             undurDiri: 4,
             dikeluarkan: 1,
-            aktif: 1,
+            aktif: 10,
             nonAktif: 4,
             cuti: 0,
-            other: 9,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -8733,10 +9438,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 6,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 134,
             nonAktif: 5,
             cuti: 0,
-            other: 133,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 73,
@@ -8752,10 +9458,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 17,
+            aktif: 145,
             nonAktif: 3,
             cuti: 0,
-            other: 128,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 76,
@@ -8769,10 +9476,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 17,
+            aktif: 160,
             nonAktif: 8,
             cuti: 0,
-            other: 144,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 85,
@@ -8786,10 +9496,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 12,
+            aktif: 165,
             nonAktif: 0,
             cuti: 0,
-            other: 179,
+            other: 26,
+            otherStatusMap: {
+              "": 26,
+            },
           },
           genderBreakdown: {
             male: 95,
@@ -8807,10 +9520,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1166,
         undurDiri: 35,
         dikeluarkan: 7,
-        aktif: 25,
+        aktif: 653,
         nonAktif: 18,
         cuti: 0,
-        other: 631,
+        other: 3,
+        otherStatusMap: {
+          "": 3,
+        },
       },
       genderBreakdown: {
         male: 1575,
@@ -8827,6 +9543,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -8844,6 +9561,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -8863,6 +9581,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -8882,6 +9601,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -8902,6 +9622,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -8923,6 +9644,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 77,
@@ -8946,6 +9668,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 90,
@@ -8969,6 +9692,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 119,
@@ -8991,6 +9715,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 132,
@@ -9013,6 +9738,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 123,
@@ -9031,10 +9759,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 143,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 6,
             nonAktif: 0,
             cuti: 0,
-            other: 6,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 126,
@@ -9053,10 +9782,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 190,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 22,
             nonAktif: 7,
             cuti: 0,
-            other: 22,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 190,
@@ -9074,10 +9804,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 150,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 20,
             nonAktif: 2,
             cuti: 0,
-            other: 20,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 148,
@@ -9094,10 +9825,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 20,
             undurDiri: 3,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 135,
             nonAktif: 4,
             cuti: 0,
-            other: 136,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 133,
@@ -9113,10 +9847,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 15,
+            aktif: 161,
             nonAktif: 1,
             cuti: 0,
-            other: 146,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 139,
@@ -9130,10 +9865,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 163,
             nonAktif: 1,
             cuti: 0,
-            other: 159,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 139,
@@ -9147,10 +9885,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 146,
             nonAktif: 1,
             cuti: 0,
-            other: 141,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 125,
@@ -9168,10 +9907,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 643,
         undurDiri: 33,
         dikeluarkan: 5,
-        aktif: 15,
+        aktif: 334,
         nonAktif: 16,
         cuti: 0,
-        other: 324,
+        other: 5,
+        otherStatusMap: {
+          "": 2,
+          selesai: 3,
+        },
       },
       genderBreakdown: {
         male: 862,
@@ -9188,6 +9931,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -9205,6 +9949,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -9222,6 +9967,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -9241,6 +9987,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -9261,6 +10008,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 57,
@@ -9283,6 +10031,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -9306,6 +10055,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 44,
@@ -9328,6 +10078,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 81,
@@ -9350,6 +10101,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 84,
@@ -9368,10 +10122,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 87,
             undurDiri: 6,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 3,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 82,
@@ -9390,10 +10145,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 81,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 14,
             nonAktif: 5,
             cuti: 0,
-            other: 14,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 87,
@@ -9411,10 +10167,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 65,
             undurDiri: 6,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 8,
             nonAktif: 0,
             cuti: 0,
-            other: 8,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 70,
@@ -9431,10 +10188,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 22,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 57,
             nonAktif: 2,
             cuti: 0,
-            other: 57,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 72,
@@ -9450,10 +10208,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 3,
             dikeluarkan: 1,
-            aktif: 7,
+            aktif: 97,
             nonAktif: 3,
             cuti: 0,
-            other: 91,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 84,
@@ -9467,10 +10228,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 75,
             nonAktif: 1,
             cuti: 0,
-            other: 74,
+            other: 3,
+            otherStatusMap: {
+              "": 1,
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 63,
@@ -9484,10 +10249,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 80,
             nonAktif: 1,
             cuti: 0,
-            other: 76,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 66,
@@ -9505,10 +10271,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 508,
         undurDiri: 19,
         dikeluarkan: 6,
-        aktif: 16,
+        aktif: 242,
         nonAktif: 12,
         cuti: 0,
-        other: 228,
+        other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 615,
@@ -9525,6 +10294,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -9542,6 +10312,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -9561,6 +10332,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -9580,6 +10352,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -9601,6 +10374,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 51,
@@ -9622,6 +10396,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 48,
@@ -9644,6 +10419,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 48,
@@ -9665,6 +10441,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 47,
@@ -9687,6 +10466,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -9709,6 +10489,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -9727,10 +10508,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 63,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 53,
@@ -9748,10 +10532,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 56,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 3,
             cuti: 0,
-            other: 7,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -9768,10 +10553,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 9,
             undurDiri: 2,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 44,
             nonAktif: 2,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 44,
@@ -9787,10 +10573,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 7,
+            aktif: 56,
             nonAktif: 1,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -9804,10 +10591,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 73,
             nonAktif: 3,
             cuti: 0,
-            other: 67,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -9821,10 +10609,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 60,
             nonAktif: 2,
             cuti: 0,
-            other: 57,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -9842,10 +10631,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 237,
         undurDiri: 5,
         dikeluarkan: 1,
-        aktif: 18,
+        aktif: 185,
         nonAktif: 9,
         cuti: 0,
-        other: 167,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 119,
@@ -9862,6 +10652,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -9882,6 +10673,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -9902,6 +10694,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -9923,6 +10716,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -9943,6 +10737,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -9959,10 +10754,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 38,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -9978,10 +10774,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 28,
             nonAktif: 0,
             cuti: 0,
-            other: 28,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -9995,10 +10792,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 58,
             nonAktif: 2,
             cuti: 0,
-            other: 50,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -10012,10 +10810,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 55,
             nonAktif: 5,
             cuti: 0,
-            other: 50,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -10029,10 +10828,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 43,
             nonAktif: 2,
             cuti: 0,
-            other: 38,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -10050,10 +10850,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 400,
         undurDiri: 16,
         dikeluarkan: 2,
-        aktif: 9,
+        aktif: 198,
         nonAktif: 9,
         cuti: 0,
-        other: 190,
+        other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 269,
@@ -10070,6 +10873,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -10090,6 +10894,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -10111,6 +10916,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -10133,6 +10939,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -10155,6 +10962,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -10177,6 +10985,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -10199,6 +11008,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -10216,10 +11026,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -10237,10 +11048,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 46,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -10257,10 +11069,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 45,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 2,
             cuti: 0,
-            other: 3,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 21,
@@ -10277,10 +11092,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 7,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 35,
             nonAktif: 6,
             cuti: 0,
-            other: 35,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -10296,10 +11112,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 50,
             nonAktif: 0,
             cuti: 0,
-            other: 49,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -10313,10 +11130,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 59,
             nonAktif: 0,
             cuti: 0,
-            other: 55,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -10330,10 +11148,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 50,
             nonAktif: 0,
             cuti: 0,
-            other: 46,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -10351,10 +11170,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 206,
         undurDiri: 19,
         dikeluarkan: 3,
-        aktif: 13,
+        aktif: 147,
         nonAktif: 6,
         cuti: 0,
-        other: 155,
+        other: 21,
+        otherStatusMap: {
+          selesai: 21,
+        },
       },
       genderBreakdown: {
         male: 235,
@@ -10371,6 +11193,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -10392,6 +11215,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -10412,6 +11236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -10433,6 +11258,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -10453,6 +11279,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -10473,6 +11300,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -10488,10 +11316,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 25,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 6,
             nonAktif: 1,
             cuti: 0,
-            other: 6,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -10507,10 +11336,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 55,
             nonAktif: 3,
             cuti: 0,
-            other: 49,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 38,
@@ -10524,10 +11356,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 47,
             nonAktif: 1,
             cuti: 0,
-            other: 65,
+            other: 20,
+            otherStatusMap: {
+              selesai: 20,
+            },
           },
           genderBreakdown: {
             male: 38,
@@ -10541,10 +11376,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 39,
             nonAktif: 1,
             cuti: 0,
-            other: 35,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -10562,10 +11398,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1311,
         undurDiri: 10,
         dikeluarkan: 6,
-        aktif: 40,
+        aktif: 566,
         nonAktif: 13,
         cuti: 0,
-        other: 534,
+        other: 8,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 5,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 1320,
@@ -10582,6 +11423,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -10599,6 +11441,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -10616,6 +11459,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -10635,6 +11479,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -10656,6 +11501,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 86,
@@ -10676,6 +11522,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 105,
@@ -10697,6 +11544,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 107,
@@ -10719,6 +11569,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 108,
@@ -10741,6 +11592,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 124,
@@ -10759,10 +11611,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 157,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 120,
@@ -10780,10 +11633,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 156,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 2,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 107,
@@ -10800,10 +11654,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 155,
             undurDiri: 2,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 4,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 115,
@@ -10820,10 +11675,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 63,
             undurDiri: 3,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 91,
             nonAktif: 1,
             cuti: 0,
-            other: 91,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 117,
@@ -10839,10 +11695,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 13,
+            aktif: 158,
             nonAktif: 1,
             cuti: 0,
-            other: 149,
+            other: 4,
+            otherStatusMap: {
+              selesai: 4,
+            },
           },
           genderBreakdown: {
             male: 109,
@@ -10856,10 +11715,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 12,
+            aktif: 159,
             nonAktif: 2,
             cuti: 0,
-            other: 150,
+            other: 3,
+            otherStatusMap: {
+              "": 2,
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 102,
@@ -10873,10 +11736,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 15,
+            aktif: 150,
             nonAktif: 1,
             cuti: 0,
-            other: 135,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 109,
@@ -10894,10 +11758,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 858,
         undurDiri: 13,
         dikeluarkan: 7,
-        aktif: 72,
+        aktif: 378,
         nonAktif: 5,
         cuti: 0,
-        other: 335,
+        other: 29,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 1,
+          "": 27,
+        },
       },
       genderBreakdown: {
         male: 789,
@@ -10914,6 +11783,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -10931,6 +11801,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -10950,6 +11821,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -10970,6 +11842,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -10990,6 +11863,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 59,
@@ -11012,6 +11886,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -11034,6 +11909,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 76,
@@ -11056,6 +11932,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 70,
@@ -11078,6 +11957,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 68,
@@ -11100,6 +11980,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -11117,10 +11998,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 100,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -11137,10 +12019,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 86,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 28,
+            other: 27,
+            otherStatusMap: {
+              "": 27,
+            },
           },
           genderBreakdown: {
             male: 49,
@@ -11157,10 +12042,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 73,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 15,
             nonAktif: 0,
             cuti: 0,
-            other: 15,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -11176,10 +12062,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 25,
+            aktif: 120,
             nonAktif: 1,
             cuti: 0,
-            other: 95,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 74,
@@ -11193,10 +12080,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 22,
+            aktif: 120,
             nonAktif: 2,
             cuti: 0,
-            other: 99,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 68,
@@ -11210,10 +12100,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 25,
+            aktif: 121,
             nonAktif: 1,
             cuti: 0,
-            other: 96,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 74,
@@ -11231,10 +12122,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 801,
         undurDiri: 25,
         dikeluarkan: 1,
-        aktif: 18,
+        aktif: 310,
         nonAktif: 12,
         cuti: 1,
-        other: 307,
+        other: 15,
+        otherStatusMap: {
+          "": 14,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 411,
@@ -11251,6 +12146,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11268,6 +12164,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -11287,6 +12184,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11306,6 +12204,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -11325,6 +12224,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11347,6 +12247,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -11368,6 +12269,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -11389,6 +12291,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -11410,6 +12313,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -11431,6 +12335,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -11453,6 +12358,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 31,
@@ -11474,6 +12382,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -11491,10 +12400,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 78,
             undurDiri: 6,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 9,
             nonAktif: 1,
             cuti: 0,
-            other: 8,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -11511,10 +12421,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 67,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 10,
             nonAktif: 1,
             cuti: 0,
-            other: 11,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 27,
@@ -11530,10 +12443,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 86,
             nonAktif: 8,
             cuti: 0,
-            other: 91,
+            other: 12,
+            otherStatusMap: {
+              "": 12,
+            },
           },
           genderBreakdown: {
             male: 34,
@@ -11547,10 +12463,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 102,
             nonAktif: 1,
             cuti: 0,
-            other: 95,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 42,
@@ -11564,10 +12483,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 103,
             nonAktif: 0,
             cuti: 1,
-            other: 101,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -11585,10 +12505,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 771,
         undurDiri: 30,
         dikeluarkan: 15,
-        aktif: 33,
+        aktif: 455,
         nonAktif: 9,
         cuti: 0,
-        other: 434,
+        other: 12,
+        otherStatusMap: {
+          "": 7,
+          selesai: 5,
+        },
       },
       genderBreakdown: {
         male: 536,
@@ -11605,6 +12529,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11624,6 +12549,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -11644,6 +12570,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -11666,6 +12593,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -11688,6 +12616,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -11710,6 +12639,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -11732,6 +12662,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -11754,6 +12685,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 44,
@@ -11772,10 +12704,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 89,
             undurDiri: 5,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -11793,10 +12726,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 108,
             undurDiri: 5,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 6,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 47,
@@ -11814,10 +12750,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 92,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 11,
             nonAktif: 0,
             cuti: 0,
-            other: 11,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -11834,10 +12771,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 9,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 105,
             nonAktif: 1,
             cuti: 0,
-            other: 111,
+            other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 51,
@@ -11853,10 +12793,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 12,
+            aktif: 113,
             nonAktif: 1,
             cuti: 0,
-            other: 103,
+            other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 58,
@@ -11870,10 +12813,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 108,
             nonAktif: 3,
             cuti: 0,
-            other: 103,
+            other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 42,
@@ -11887,10 +12833,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 13,
+            aktif: 111,
             nonAktif: 3,
             cuti: 0,
-            other: 98,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -11908,10 +12855,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 961,
         undurDiri: 60,
         dikeluarkan: 14,
-        aktif: 48,
+        aktif: 464,
         nonAktif: 19,
         cuti: 0,
-        other: 443,
+        other: 27,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+          selesai: 20,
+          "": 5,
+        },
       },
       genderBreakdown: {
         male: 598,
@@ -11928,6 +12880,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11945,6 +12898,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -11964,6 +12918,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -11981,6 +12936,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -12002,6 +12958,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 45,
@@ -12024,6 +12983,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -12046,6 +13006,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -12068,6 +13031,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 70,
@@ -12090,6 +13054,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 44,
@@ -12108,10 +13073,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 126,
             undurDiri: 4,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -12129,10 +13095,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 112,
             undurDiri: 12,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 14,
             nonAktif: 4,
             cuti: 0,
-            other: 14,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 52,
@@ -12149,10 +13116,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 89,
             undurDiri: 10,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -12169,10 +13137,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 87,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 31,
             nonAktif: 2,
             cuti: 0,
-            other: 31,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -12188,10 +13157,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 17,
+            aktif: 142,
             nonAktif: 5,
             cuti: 0,
-            other: 132,
+            other: 7,
+            otherStatusMap: {
+              selesai: 6,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 52,
@@ -12205,10 +13178,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 15,
+            aktif: 145,
             nonAktif: 3,
             cuti: 0,
-            other: 148,
+            other: 18,
+            otherStatusMap: {
+              "": 4,
+              selesai: 14,
+            },
           },
           genderBreakdown: {
             male: 50,
@@ -12222,10 +13199,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 16,
+            aktif: 125,
             nonAktif: 3,
             cuti: 0,
-            other: 109,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -12243,10 +13221,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 608,
         undurDiri: 24,
         dikeluarkan: 7,
-        aktif: 20,
+        aktif: 295,
         nonAktif: 17,
         cuti: 0,
-        other: 280,
+        other: 5,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 3,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 662,
@@ -12263,6 +13246,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -12280,6 +13264,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -12299,6 +13284,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -12320,6 +13306,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -12341,6 +13328,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 50,
@@ -12364,6 +13352,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -12385,6 +13374,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 61,
@@ -12407,6 +13399,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -12429,6 +13422,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 59,
@@ -12447,10 +13443,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 69,
             undurDiri: 2,
             dikeluarkan: 3,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 2,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 58,
@@ -12469,10 +13466,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 78,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 6,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -12490,10 +13488,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 60,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 11,
             nonAktif: 1,
             cuti: 0,
-            other: 10,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 48,
@@ -12510,10 +13509,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 4,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 53,
             nonAktif: 1,
             cuti: 0,
-            other: 53,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -12529,10 +13529,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 67,
             nonAktif: 3,
             cuti: 0,
-            other: 61,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 43,
@@ -12546,10 +13547,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 89,
             nonAktif: 2,
             cuti: 0,
-            other: 85,
+            other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 61,
@@ -12563,10 +13567,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 67,
             nonAktif: 2,
             cuti: 0,
-            other: 61,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -12584,10 +13589,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 249,
         undurDiri: 23,
         dikeluarkan: 4,
-        aktif: 24,
+        aktif: 207,
         nonAktif: 7,
         cuti: 0,
-        other: 183,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 230,
@@ -12604,6 +13610,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -12625,6 +13632,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -12647,6 +13655,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -12669,6 +13678,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -12691,6 +13701,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -12713,6 +13724,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -12731,10 +13743,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 36,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -12751,10 +13764,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 24,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 4,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -12771,10 +13785,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 8,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 28,
             nonAktif: 0,
             cuti: 0,
-            other: 28,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -12790,10 +13805,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 47,
             nonAktif: 1,
             cuti: 0,
-            other: 40,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -12807,10 +13823,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 78,
             nonAktif: 0,
             cuti: 0,
-            other: 67,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -12824,10 +13841,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 50,
             nonAktif: 0,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -12845,10 +13863,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 303,
         undurDiri: 16,
         dikeluarkan: 5,
-        aktif: 21,
+        aktif: 148,
         nonAktif: 4,
         cuti: 0,
-        other: 127,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 331,
@@ -12865,6 +13884,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -12886,6 +13906,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -12908,6 +13929,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -12930,6 +13952,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -12952,6 +13975,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -12974,6 +13998,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -12992,10 +14017,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 37,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -13013,10 +14039,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 34,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -13033,10 +14060,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 14,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 25,
             nonAktif: 2,
             cuti: 0,
-            other: 25,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -13052,10 +14080,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 11,
+            aktif: 55,
             nonAktif: 0,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -13069,10 +14098,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 40,
             nonAktif: 1,
             cuti: 0,
-            other: 31,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -13086,10 +14116,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 22,
             nonAktif: 0,
             cuti: 0,
-            other: 21,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -13107,10 +14138,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 0,
         undurDiri: 41,
         dikeluarkan: 15,
-        aktif: 484,
+        aktif: 486,
         nonAktif: 5,
         cuti: 0,
-        other: 68,
+        other: 66,
+        otherStatusMap: {
+          "": 66,
+        },
       },
       genderBreakdown: {
         male: 39,
@@ -13127,6 +14161,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13144,6 +14181,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13161,6 +14201,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13178,6 +14221,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13195,6 +14241,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13212,6 +14261,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13229,6 +14281,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -13246,6 +14299,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 16,
@@ -13263,6 +14319,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 11,
@@ -13276,10 +14335,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 5,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -13293,10 +14353,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 19,
+            other: 18,
+            otherStatusMap: {
+              "": 18,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -13314,6 +14377,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13335,6 +14399,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 167,
+        otherStatusMap: {
+          "": 167,
+        },
       },
       genderBreakdown: {
         male: 10,
@@ -13351,6 +14418,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13368,6 +14438,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13385,6 +14458,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13402,6 +14478,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -13419,6 +14496,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -13436,6 +14516,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -13453,6 +14536,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -13470,6 +14554,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 153,
+            otherStatusMap: {
+              "": 153,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -13487,6 +14574,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13508,6 +14596,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 3,
         cuti: 0,
         other: 172,
+        otherStatusMap: {
+          "": 172,
+        },
       },
       genderBreakdown: {
         male: 1,
@@ -13524,6 +14615,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13541,6 +14635,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13558,6 +14655,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13575,6 +14675,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13592,6 +14695,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -13609,6 +14713,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13626,6 +14733,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13643,6 +14751,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13660,6 +14769,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 150,
+            otherStatusMap: {
+              "": 150,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13677,6 +14789,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13698,6 +14811,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 39,
+        otherStatusMap: {
+          "": 38,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 41,
@@ -13714,6 +14831,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13731,6 +14851,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13748,6 +14871,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13765,6 +14891,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13782,6 +14911,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -13799,6 +14931,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -13816,6 +14951,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -13833,6 +14971,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -13850,6 +14989,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -13867,6 +15009,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -13888,6 +15031,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 21,
         cuti: 0,
         other: 50,
+        otherStatusMap: {
+          "": 48,
+          "meninggal dunia": 2,
+        },
       },
       genderBreakdown: {
         male: 72,
@@ -13904,6 +15051,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -13923,6 +15073,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13940,6 +15093,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13957,6 +15113,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -13974,6 +15133,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -13991,6 +15153,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 16,
@@ -14008,6 +15173,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -14025,6 +15193,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 15,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -14042,6 +15213,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 11,
+            otherStatusMap: {
+              "": 10,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -14059,6 +15234,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -14076,6 +15252,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14097,6 +15276,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 8,
         cuti: 0,
         other: 34,
+        otherStatusMap: {
+          "": 34,
+        },
       },
       genderBreakdown: {
         male: 41,
@@ -14113,6 +15295,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14130,6 +15315,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14147,6 +15335,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14164,6 +15355,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14181,6 +15375,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -14198,6 +15393,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 13,
@@ -14215,6 +15413,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -14232,6 +15433,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -14249,6 +15453,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -14266,6 +15473,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -14287,6 +15495,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 10,
         cuti: 0,
         other: 56,
+        otherStatusMap: {
+          "": 54,
+          "meninggal dunia": 2,
+        },
       },
       genderBreakdown: {
         male: 40,
@@ -14303,6 +15515,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14320,6 +15535,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14337,6 +15555,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 12,
+            otherStatusMap: {
+              "": 12,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14354,6 +15575,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14371,6 +15595,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -14388,6 +15615,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 8,
+            otherStatusMap: {
+              "": 8,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -14405,6 +15635,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -14422,6 +15655,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -14439,6 +15675,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 7,
             cuti: 0,
             other: 14,
+            otherStatusMap: {
+              "": 12,
+              "meninggal dunia": 2,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -14456,6 +15696,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -14473,10 +15714,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1,
         undurDiri: 51,
         dikeluarkan: 2,
-        aktif: 600,
+        aktif: 601,
         nonAktif: 12,
         cuti: 0,
-        other: 70,
+        other: 69,
+        otherStatusMap: {
+          "": 69,
+        },
       },
       genderBreakdown: {
         male: 41,
@@ -14493,6 +15737,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14510,6 +15757,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14527,6 +15777,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14544,6 +15797,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 13,
+            otherStatusMap: {
+              "": 13,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14561,6 +15817,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -14578,6 +15837,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 11,
@@ -14597,6 +15859,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -14610,10 +15875,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 6,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 8,
             cuti: 0,
-            other: 3,
+            other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -14631,6 +15899,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 15,
+            otherStatusMap: {
+              "": 15,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -14648,6 +15919,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -14669,6 +15941,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 39,
+        otherStatusMap: {
+          "": 38,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 5,
@@ -14685,6 +15961,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14702,6 +15981,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14719,6 +16001,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14736,6 +16021,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -14753,6 +16039,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -14770,6 +16059,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14787,6 +16080,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -14804,6 +16100,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -14825,6 +16122,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 66,
+        otherStatusMap: {
+          "": 66,
+        },
       },
       genderBreakdown: {
         male: 34,
@@ -14841,6 +16141,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14858,6 +16161,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14875,6 +16181,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14892,6 +16201,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 8,
+            otherStatusMap: {
+              "": 8,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14909,6 +16221,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -14926,6 +16239,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 18,
+            otherStatusMap: {
+              "": 18,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -14943,6 +16259,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 8,
+            otherStatusMap: {
+              "": 8,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -14960,6 +16279,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -14977,6 +16297,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 18,
+            otherStatusMap: {
+              "": 18,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -14994,6 +16317,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -15011,10 +16335,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 273,
         undurDiri: 38,
         dikeluarkan: 9,
-        aktif: 12,
+        aktif: 235,
         nonAktif: 15,
         cuti: 0,
-        other: 250,
+        other: 27,
+        otherStatusMap: {
+          selesai: 21,
+          "": 6,
+        },
       },
       genderBreakdown: {
         male: 174,
@@ -15031,6 +16359,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -15048,6 +16377,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -15065,6 +16395,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -15082,6 +16413,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -15101,6 +16433,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -15122,6 +16455,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -15144,6 +16478,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -15166,6 +16501,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15188,6 +16524,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15210,6 +16547,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -15228,10 +16566,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 35,
             undurDiri: 1,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 2,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15249,10 +16588,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 27,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 4,
             cuti: 0,
-            other: 7,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -15270,10 +16610,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 36,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 11,
             nonAktif: 1,
             cuti: 0,
-            other: 11,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -15290,10 +16631,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 3,
             undurDiri: 1,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 44,
             nonAktif: 2,
             cuti: 0,
-            other: 44,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -15309,10 +16651,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 56,
             nonAktif: 3,
             cuti: 0,
-            other: 50,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15326,10 +16669,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 65,
             nonAktif: 1,
             cuti: 0,
-            other: 84,
+            other: 22,
+            otherStatusMap: {
+              selesai: 21,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 24,
@@ -15343,10 +16690,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 47,
             nonAktif: 2,
             cuti: 0,
-            other: 49,
+            other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -15364,10 +16714,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 384,
         undurDiri: 15,
         dikeluarkan: 11,
-        aktif: 22,
+        aktif: 292,
         nonAktif: 22,
         cuti: 0,
-        other: 271,
+        other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 136,
@@ -15384,6 +16737,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -15401,6 +16755,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -15420,6 +16775,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -15440,6 +16796,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -15462,6 +16819,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -15484,6 +16842,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -15505,6 +16864,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -15527,6 +16887,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -15548,6 +16909,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -15566,10 +16928,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 48,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -15586,10 +16949,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 34,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -15606,10 +16970,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 47,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 18,
             nonAktif: 2,
             cuti: 0,
-            other: 19,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 13,
@@ -15625,10 +16992,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 3,
-            aktif: 10,
+            aktif: 92,
             nonAktif: 9,
             cuti: 0,
-            other: 82,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -15642,10 +17010,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 94,
             nonAktif: 2,
             cuti: 0,
-            other: 89,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -15659,10 +17028,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 84,
             nonAktif: 2,
             cuti: 0,
-            other: 77,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15680,10 +17050,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 394,
         undurDiri: 17,
         dikeluarkan: 9,
-        aktif: 12,
+        aktif: 207,
         nonAktif: 15,
         cuti: 0,
-        other: 198,
+        other: 3,
+        otherStatusMap: {
+          "": 1,
+          selesai: 2,
+        },
       },
       genderBreakdown: {
         male: 195,
@@ -15700,6 +17074,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -15717,6 +17092,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -15736,6 +17112,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -15757,6 +17134,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -15779,6 +17157,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15799,6 +17178,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -15821,6 +17201,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -15843,6 +17224,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -15861,10 +17243,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 46,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 4,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -15883,10 +17266,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 38,
             undurDiri: 0,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 4,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -15904,10 +17288,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 47,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 6,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -15924,10 +17311,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 32,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 17,
             nonAktif: 2,
             cuti: 0,
-            other: 17,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -15943,10 +17331,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 60,
             nonAktif: 1,
             cuti: 0,
-            other: 59,
+            other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 15,
@@ -15960,10 +17351,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 63,
             nonAktif: 3,
             cuti: 0,
-            other: 61,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -15977,10 +17369,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 55,
             nonAktif: 1,
             cuti: 0,
-            other: 48,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -15998,10 +17391,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 593,
         undurDiri: 6,
         dikeluarkan: 1,
-        aktif: 38,
+        aktif: 399,
         nonAktif: 9,
         cuti: 0,
-        other: 373,
+        other: 12,
+        otherStatusMap: {
+          selesai: 10,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 216,
@@ -16018,6 +17415,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -16035,6 +17433,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -16054,6 +17453,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -16075,6 +17475,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -16094,6 +17495,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -16116,6 +17518,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -16137,6 +17540,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -16159,6 +17563,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -16177,10 +17582,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 70,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -16198,10 +17604,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 72,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -16218,10 +17625,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 70,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -16237,10 +17645,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 97,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 9,
             nonAktif: 0,
             cuti: 0,
-            other: 9,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -16256,10 +17665,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 1,
-            aktif: 20,
+            aktif: 113,
             nonAktif: 4,
             cuti: 0,
-            other: 93,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -16273,10 +17683,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 139,
             nonAktif: 2,
             cuti: 0,
-            other: 140,
+            other: 11,
+            otherStatusMap: {
+              selesai: 10,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 32,
@@ -16290,10 +17704,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 131,
             nonAktif: 3,
             cuti: 0,
-            other: 124,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -16311,10 +17728,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 356,
         undurDiri: 16,
         dikeluarkan: 4,
-        aktif: 21,
+        aktif: 258,
         nonAktif: 11,
         cuti: 0,
-        other: 299,
+        other: 62,
+        otherStatusMap: {
+          "": 2,
+          selesai: 60,
+        },
       },
       genderBreakdown: {
         male: 282,
@@ -16331,6 +17752,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -16348,6 +17770,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -16368,6 +17791,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -16390,6 +17814,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -16411,6 +17836,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -16433,6 +17859,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -16455,6 +17882,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -16476,6 +17904,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -16493,10 +17922,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 42,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 2,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -16513,10 +17945,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 31,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 0,
             cuti: 0,
-            other: 7,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -16532,10 +17965,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 44,
             nonAktif: 1,
             cuti: 0,
-            other: 45,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -16549,10 +17985,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 60,
             nonAktif: 1,
             cuti: 0,
-            other: 82,
+            other: 28,
+            otherStatusMap: {
+              selesai: 28,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -16566,10 +18005,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 64,
             nonAktif: 4,
             cuti: 0,
-            other: 89,
+            other: 32,
+            otherStatusMap: {
+              selesai: 32,
+            },
           },
           genderBreakdown: {
             male: 26,
@@ -16583,10 +18025,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 8,
+            aktif: 80,
             nonAktif: 0,
             cuti: 0,
-            other: 72,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -16604,10 +18047,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 289,
         undurDiri: 19,
         dikeluarkan: 3,
-        aktif: 11,
+        aktif: 186,
         nonAktif: 4,
         cuti: 0,
-        other: 178,
+        other: 3,
+        otherStatusMap: {
+          "": 3,
+        },
       },
       genderBreakdown: {
         male: 418,
@@ -16624,6 +18070,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -16641,6 +18090,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -16660,6 +18110,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -16680,6 +18131,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -16701,6 +18153,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 40,
@@ -16722,6 +18175,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -16744,6 +18198,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -16760,10 +18215,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 39,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -16785,6 +18241,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -16802,10 +18259,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 22,
             undurDiri: 7,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -16823,10 +18281,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 20,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -16842,10 +18301,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 8,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 7,
             nonAktif: 0,
             cuti: 0,
-            other: 7,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -16861,10 +18321,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 1,
-            aktif: 4,
+            aktif: 49,
             nonAktif: 2,
             cuti: 0,
-            other: 45,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 41,
@@ -16878,10 +18339,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 60,
             nonAktif: 0,
             cuti: 0,
-            other: 58,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 45,
@@ -16895,10 +18359,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 65,
             nonAktif: 0,
             cuti: 0,
-            other: 61,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 55,
@@ -16916,6 +18381,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -16933,10 +18401,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 318,
         undurDiri: 22,
         dikeluarkan: 4,
-        aktif: 9,
+        aktif: 213,
         nonAktif: 4,
         cuti: 0,
-        other: 204,
+        other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 411,
@@ -16953,6 +18422,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -16972,6 +18442,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -16992,6 +18463,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -17013,6 +18485,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -17033,6 +18506,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -17054,6 +18528,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -17074,6 +18549,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -17096,6 +18572,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -17113,10 +18590,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 34,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -17134,10 +18612,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 58,
             undurDiri: 9,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 13,
             nonAktif: 1,
             cuti: 0,
-            other: 13,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -17154,10 +18633,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 22,
             undurDiri: 2,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 37,
             nonAktif: 0,
             cuti: 0,
-            other: 37,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -17173,10 +18653,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 3,
+            aktif: 53,
             nonAktif: 2,
             cuti: 0,
-            other: 50,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -17190,10 +18671,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 60,
             nonAktif: 1,
             cuti: 0,
-            other: 55,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -17207,10 +18689,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 47,
             nonAktif: 0,
             cuti: 0,
-            other: 46,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -17228,10 +18711,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 514,
         undurDiri: 28,
         dikeluarkan: 6,
-        aktif: 30,
+        aktif: 537,
         nonAktif: 17,
         cuti: 0,
-        other: 508,
+        other: 1,
+        otherStatusMap: {
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 759,
@@ -17248,6 +18734,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -17267,6 +18754,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -17288,6 +18776,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -17311,6 +18800,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -17332,6 +18822,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -17354,6 +18845,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -17376,6 +18868,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -17394,10 +18887,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 46,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -17416,10 +18910,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 95,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 16,
             nonAktif: 2,
             cuti: 0,
-            other: 16,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 83,
@@ -17436,10 +18931,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 102,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 9,
             nonAktif: 3,
             cuti: 0,
-            other: 9,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 83,
@@ -17456,10 +18952,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 49,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 114,
             nonAktif: 1,
             cuti: 0,
-            other: 113,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 113,
@@ -17475,10 +18972,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 138,
             nonAktif: 1,
             cuti: 0,
-            other: 129,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 101,
@@ -17492,10 +18990,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 137,
             nonAktif: 5,
             cuti: 0,
-            other: 128,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 97,
@@ -17509,10 +19010,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 121,
             nonAktif: 2,
             cuti: 0,
-            other: 111,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 78,
@@ -17530,10 +19032,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 189,
         undurDiri: 13,
         dikeluarkan: 3,
-        aktif: 8,
+        aktif: 116,
         nonAktif: 6,
         cuti: 0,
-        other: 109,
+        other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 144,
@@ -17550,6 +19055,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -17567,6 +19075,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -17588,6 +19097,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -17609,6 +19119,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -17626,10 +19137,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 38,
             undurDiri: 3,
             dikeluarkan: 2,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -17648,10 +19160,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 33,
             undurDiri: 3,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 5,
             nonAktif: 0,
             cuti: 0,
-            other: 5,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -17668,10 +19181,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 22,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 18,
             nonAktif: 1,
             cuti: 0,
-            other: 18,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -17688,10 +19202,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 1,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 19,
             nonAktif: 0,
             cuti: 0,
-            other: 19,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -17707,10 +19222,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 6,
+            aktif: 28,
             nonAktif: 1,
             cuti: 0,
-            other: 22,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -17724,10 +19240,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 24,
             nonAktif: 3,
             cuti: 0,
-            other: 22,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -17741,10 +19258,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 21,
             nonAktif: 0,
             cuti: 0,
-            other: 21,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -17766,6 +19284,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -17782,6 +19303,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -17799,10 +19323,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1883,
         undurDiri: 35,
         dikeluarkan: 9,
-        aktif: 21,
+        aktif: 800,
         nonAktif: 119,
         cuti: 0,
-        other: 881,
+        other: 102,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+          selesai: 80,
+          "": 20,
+        },
       },
       genderBreakdown: {
         male: 1307,
@@ -17819,6 +19348,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -17838,6 +19368,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -17855,6 +19386,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -17874,6 +19406,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -17893,6 +19426,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -17912,6 +19446,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -17931,6 +19466,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -17951,6 +19487,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -17974,6 +19511,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 78,
@@ -17996,6 +19534,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 94,
@@ -18019,6 +19558,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -18041,6 +19581,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 142,
@@ -18064,6 +19605,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 109,
@@ -18083,10 +19627,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 282,
             undurDiri: 9,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 7,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 152,
@@ -18104,10 +19651,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 287,
             undurDiri: 7,
             dikeluarkan: 1,
-            aktif: 0,
+            aktif: 4,
             nonAktif: 11,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 135,
@@ -18125,10 +19673,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 249,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 13,
             nonAktif: 11,
             cuti: 0,
-            other: 26,
+            other: 13,
+            otherStatusMap: {
+              "": 13,
+            },
           },
           genderBreakdown: {
             male: 124,
@@ -18145,10 +19696,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 2,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 1,
+            aktif: 202,
             nonAktif: 82,
             cuti: 0,
-            other: 246,
+            other: 45,
+            otherStatusMap: {
+              selesai: 45,
+            },
           },
           genderBreakdown: {
             male: 152,
@@ -18162,10 +19716,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 13,
+            aktif: 268,
             nonAktif: 4,
             cuti: 0,
-            other: 290,
+            other: 35,
+            otherStatusMap: {
+              selesai: 35,
+            },
           },
           genderBreakdown: {
             male: 132,
@@ -18179,10 +19736,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 310,
             nonAktif: 0,
             cuti: 0,
-            other: 310,
+            other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 148,
@@ -18204,6 +19764,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -18220,6 +19783,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18237,6 +19803,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18254,10 +19823,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 473,
         undurDiri: 16,
         dikeluarkan: 3,
-        aktif: 10,
+        aktif: 237,
         nonAktif: 15,
         cuti: 0,
-        other: 256,
+        other: 29,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          selesai: 8,
+          "": 20,
+        },
       },
       genderBreakdown: {
         male: 356,
@@ -18274,6 +19848,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18291,6 +19868,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -18311,6 +19889,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -18333,6 +19912,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -18354,6 +19934,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -18375,6 +19956,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 32,
@@ -18398,6 +19982,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -18417,10 +20002,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 75,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 33,
@@ -18438,10 +20024,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 73,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 3,
             nonAktif: 1,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 35,
@@ -18458,10 +20047,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 51,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 1,
             cuti: 0,
-            other: 4,
+            other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 24,
@@ -18478,10 +20070,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 1,
-            aktif: 3,
+            aktif: 71,
             nonAktif: 6,
             cuti: 0,
-            other: 73,
+            other: 5,
+            otherStatusMap: {
+              selesai: 5,
+            },
           },
           genderBreakdown: {
             male: 41,
@@ -18495,10 +20090,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 5,
+            aktif: 73,
             nonAktif: 2,
             cuti: 0,
-            other: 84,
+            other: 16,
+            otherStatusMap: {
+              "": 13,
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 33,
@@ -18512,10 +20111,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 2,
+            aktif: 86,
             nonAktif: 4,
             cuti: 0,
-            other: 86,
+            other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 51,
@@ -18537,6 +20139,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -18553,6 +20158,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18570,10 +20178,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 0,
         undurDiri: 10,
         dikeluarkan: 8,
-        aktif: 286,
+        aktif: 288,
         nonAktif: 8,
         cuti: 0,
-        other: 11,
+        other: 9,
+        otherStatusMap: {
+          "": 9,
+        },
       },
       genderBreakdown: {
         male: 20,
@@ -18586,10 +20197,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 4,
             dikeluarkan: 8,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -18603,10 +20215,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 5,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 1,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -18624,6 +20237,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -18641,6 +20257,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -18662,6 +20279,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 796,
+        otherStatusMap: {
+          "": 796,
+        },
       },
       genderBreakdown: {
         male: 33,
@@ -18678,6 +20298,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 348,
+            otherStatusMap: {
+              "": 348,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18695,6 +20318,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 10,
+            otherStatusMap: {
+              "": 10,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18712,6 +20338,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18729,6 +20358,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18746,6 +20378,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 59,
+            otherStatusMap: {
+              "": 59,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -18763,6 +20398,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 14,
+            otherStatusMap: {
+              "": 14,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -18780,6 +20418,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -18797,6 +20438,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -18814,6 +20456,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 349,
+            otherStatusMap: {
+              "": 349,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -18831,6 +20476,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -18852,6 +20498,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 285,
+        otherStatusMap: {
+          "": 285,
+        },
       },
       genderBreakdown: {
         male: 18,
@@ -18868,6 +20517,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18885,6 +20537,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 8,
+            otherStatusMap: {
+              "": 8,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18902,6 +20557,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18919,6 +20577,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -18936,6 +20597,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -18953,6 +20615,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 13,
+            otherStatusMap: {
+              "": 13,
+            },
           },
           genderBreakdown: {
             male: 10,
@@ -18970,6 +20635,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 12,
+            otherStatusMap: {
+              "": 12,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -18987,6 +20655,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -19004,6 +20673,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 238,
+            otherStatusMap: {
+              "": 238,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -19021,6 +20693,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -19042,6 +20715,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 264,
+        otherStatusMap: {
+          "": 263,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 13,
@@ -19058,6 +20735,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19075,6 +20755,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19092,6 +20775,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19109,6 +20795,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19126,6 +20815,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -19143,6 +20835,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 6,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -19160,6 +20856,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -19177,6 +20876,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19194,6 +20894,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 237,
+            otherStatusMap: {
+              "": 237,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -19211,6 +20914,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -19228,10 +20932,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 0,
         undurDiri: 0,
         dikeluarkan: 0,
-        aktif: 0,
+        aktif: 8,
         nonAktif: 0,
         cuti: 0,
-        other: 301,
+        other: 293,
+        otherStatusMap: {
+          selesai: 129,
+          "": 164,
+        },
       },
       genderBreakdown: {
         male: 84,
@@ -19248,6 +20956,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19265,6 +20976,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 159,
+            otherStatusMap: {
+              "": 159,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -19282,6 +20996,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 94,
+            otherStatusMap: {
+              selesai: 93,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 60,
@@ -19295,10 +21013,14 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 2,
             nonAktif: 0,
             cuti: 0,
-            other: 41,
+            other: 39,
+            otherStatusMap: {
+              selesai: 36,
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 19,
@@ -19312,10 +21034,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 0,
+            aktif: 6,
             nonAktif: 0,
             cuti: 0,
-            other: 6,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -19337,6 +21060,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 186,
@@ -19353,6 +21079,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19370,6 +21097,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19387,6 +21115,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19404,6 +21133,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -19424,6 +21154,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -19443,6 +21174,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -19462,6 +21194,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -19481,6 +21214,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -19501,6 +21235,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -19521,6 +21256,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -19541,6 +21277,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 29,
@@ -19560,6 +21299,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -19579,6 +21319,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -19596,6 +21337,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -19617,6 +21359,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 24,
+        otherStatusMap: {
+          selesai: 22,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 222,
@@ -19633,6 +21379,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -19650,6 +21397,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -19667,6 +21415,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19684,6 +21433,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -19704,6 +21454,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -19723,6 +21474,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -19743,6 +21495,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -19763,6 +21516,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -19782,6 +21536,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -19802,6 +21557,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 21,
@@ -19821,6 +21579,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 22,
+            otherStatusMap: {
+              selesai: 22,
+            },
           },
           genderBreakdown: {
             male: 23,
@@ -19840,6 +21601,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -19857,6 +21619,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -19878,6 +21643,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 52,
@@ -19894,6 +21662,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -19914,6 +21683,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -19934,6 +21704,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -19953,6 +21724,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -19973,6 +21745,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -19993,6 +21766,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -20012,6 +21788,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -20032,6 +21811,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -20051,6 +21831,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -20068,6 +21849,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -20089,6 +21871,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 1,
@@ -20105,6 +21890,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20122,6 +21908,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -20143,6 +21932,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 136,
@@ -20159,6 +21951,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20176,6 +21969,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20193,6 +21987,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20210,6 +22005,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -20227,6 +22025,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20244,6 +22043,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20261,6 +22061,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20280,6 +22081,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20300,6 +22102,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -20320,6 +22123,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -20339,6 +22143,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -20359,6 +22164,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -20379,6 +22185,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -20399,6 +22206,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -20419,6 +22227,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -20439,6 +22250,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -20458,6 +22270,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -20475,6 +22288,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -20496,6 +22310,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 55,
@@ -20512,6 +22329,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20529,6 +22347,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20549,6 +22368,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -20568,6 +22388,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -20588,6 +22409,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -20609,6 +22431,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -20629,6 +22452,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -20649,6 +22473,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -20669,6 +22494,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -20689,6 +22515,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -20708,6 +22537,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -20725,6 +22555,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -20746,6 +22579,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 122,
@@ -20762,6 +22596,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -20779,6 +22614,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -20796,6 +22632,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20813,6 +22650,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -20830,6 +22668,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -20850,6 +22689,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -20870,6 +22710,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -20889,6 +22730,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -20909,6 +22751,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -20929,6 +22772,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -20948,6 +22792,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -20967,6 +22812,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -20987,6 +22833,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -21006,6 +22853,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -21023,6 +22871,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -21044,6 +22893,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 3,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 79,
@@ -21060,6 +22912,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -21077,6 +22932,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -21096,6 +22952,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -21115,6 +22972,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21135,6 +22993,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -21154,6 +23013,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -21173,6 +23033,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -21193,6 +23054,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -21212,6 +23074,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -21232,6 +23095,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21251,6 +23115,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -21268,6 +23133,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -21289,6 +23155,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 103,
@@ -21305,6 +23174,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -21324,6 +23194,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -21343,6 +23214,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -21363,6 +23235,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21383,6 +23256,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -21402,6 +23276,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -21421,6 +23296,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21440,6 +23316,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -21459,6 +23336,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -21478,6 +23358,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -21495,6 +23376,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -21512,10 +23394,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 247,
         undurDiri: 9,
         dikeluarkan: 4,
-        aktif: 100,
+        aktif: 102,
         nonAktif: 6,
         cuti: 0,
-        other: 4,
+        other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 101,
@@ -21532,6 +23417,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -21549,6 +23435,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -21566,6 +23453,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -21586,6 +23474,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -21605,6 +23494,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21625,6 +23515,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -21644,6 +23535,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -21664,6 +23556,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -21684,6 +23577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -21704,6 +23598,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 11,
@@ -21724,6 +23621,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -21743,6 +23641,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 13,
@@ -21756,10 +23657,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 57,
+            aktif: 59,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -21777,10 +23679,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 177,
         undurDiri: 11,
         dikeluarkan: 1,
-        aktif: 44,
+        aktif: 45,
         nonAktif: 10,
         cuti: 0,
-        other: 2,
+        other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 66,
@@ -21797,6 +23702,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -21816,6 +23722,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -21836,6 +23743,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -21855,6 +23763,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -21876,6 +23785,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -21896,6 +23806,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -21916,6 +23827,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -21936,6 +23848,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -21956,6 +23869,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -21975,6 +23891,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -21988,10 +23905,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 27,
+            aktif: 28,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22013,6 +23931,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 58,
@@ -22029,6 +23948,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -22048,6 +23968,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -22067,6 +23988,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -22086,6 +24008,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -22106,6 +24029,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -22123,6 +24047,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22142,6 +24067,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22159,6 +24085,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -22178,6 +24105,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22195,6 +24123,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22212,6 +24141,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -22233,6 +24163,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 49,
@@ -22249,6 +24180,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -22266,6 +24198,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -22285,6 +24218,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -22304,6 +24238,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -22323,6 +24258,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -22342,6 +24278,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -22361,6 +24298,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -22380,6 +24318,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -22397,6 +24336,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -22414,6 +24354,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -22435,6 +24376,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 9,
         cuti: 0,
         other: 9,
+        otherStatusMap: {
+          "": 9,
+        },
       },
       genderBreakdown: {
         male: 336,
@@ -22451,6 +24395,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -22470,6 +24415,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -22490,6 +24436,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -22511,6 +24458,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -22532,6 +24480,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -22553,6 +24502,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 40,
@@ -22573,6 +24523,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -22593,6 +24544,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -22613,6 +24565,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 9,
+            },
           },
           genderBreakdown: {
             male: 50,
@@ -22633,6 +24588,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 47,
@@ -22652,6 +24608,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -22669,6 +24626,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -22686,10 +24644,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 254,
         undurDiri: 24,
         dikeluarkan: 7,
-        aktif: 61,
+        aktif: 62,
         nonAktif: 19,
         cuti: 0,
-        other: 3,
+        other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 250,
@@ -22706,6 +24667,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -22723,6 +24685,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -22743,6 +24706,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -22763,6 +24727,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 28,
@@ -22784,6 +24749,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -22805,6 +24771,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -22825,6 +24792,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -22845,6 +24813,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -22865,6 +24834,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 7,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 33,
@@ -22885,6 +24857,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -22900,10 +24873,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 4,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 17,
+            aktif: 18,
             nonAktif: 2,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -22921,6 +24895,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 29,
@@ -22942,6 +24919,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 14,
+        otherStatusMap: {
+          "": 13,
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 102,
@@ -22958,6 +24939,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -22975,6 +24959,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -22992,6 +24979,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -23009,6 +24999,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -23026,6 +25019,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -23045,6 +25039,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -23064,6 +25059,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -23084,6 +25080,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -23104,6 +25101,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -23124,6 +25122,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -23143,6 +25142,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -23162,6 +25164,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -23181,6 +25184,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -23200,6 +25206,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -23217,6 +25226,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -23234,10 +25244,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 175,
         undurDiri: 2,
         dikeluarkan: 2,
-        aktif: 43,
+        aktif: 44,
         nonAktif: 3,
         cuti: 0,
-        other: 6,
+        other: 5,
+        otherStatusMap: {
+          selesai: 2,
+          "": 3,
+        },
       },
       genderBreakdown: {
         male: 136,
@@ -23254,6 +25268,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -23271,6 +25286,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -23291,6 +25307,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -23311,6 +25328,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -23330,6 +25348,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -23349,6 +25368,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -23369,6 +25389,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -23389,6 +25410,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -23409,6 +25431,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 11,
@@ -23424,10 +25449,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 8,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 4,
+            aktif: 5,
             nonAktif: 1,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -23445,6 +25471,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 15,
@@ -23462,6 +25491,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -23479,10 +25511,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 144,
         undurDiri: 5,
         dikeluarkan: 0,
-        aktif: 40,
+        aktif: 41,
         nonAktif: 1,
         cuti: 0,
-        other: 28,
+        other: 27,
+        otherStatusMap: {
+          selesai: 19,
+          "": 8,
+        },
       },
       genderBreakdown: {
         male: 110,
@@ -23499,6 +25535,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -23516,6 +25553,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -23535,6 +25573,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -23555,6 +25594,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -23575,6 +25615,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -23595,6 +25636,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -23614,6 +25656,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -23634,6 +25677,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -23654,6 +25700,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 3,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -23673,6 +25722,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 18,
+            otherStatusMap: {
+              selesai: 18,
+            },
           },
           genderBreakdown: {
             male: 28,
@@ -23692,6 +25744,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 1,
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 15,
@@ -23705,10 +25761,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 18,
+            aktif: 19,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 11,
@@ -23730,6 +25789,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 9,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          selesai: 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 79,
@@ -23746,6 +25809,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -23766,6 +25830,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -23786,6 +25851,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -23806,6 +25872,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -23825,6 +25894,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -23844,6 +25914,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -23861,6 +25932,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 15,
@@ -23878,6 +25952,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -23899,6 +25974,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 10,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 176,
@@ -23915,6 +25993,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -23932,6 +26011,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -23951,6 +26031,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -23970,6 +26051,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -23990,6 +26072,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -24010,6 +26093,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -24030,6 +26114,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 16,
@@ -24050,6 +26137,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -24070,6 +26158,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -24090,6 +26179,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -24109,6 +26199,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 60,
@@ -24126,6 +26217,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -24147,6 +26241,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 64,
@@ -24163,6 +26258,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -24182,6 +26278,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -24201,6 +26298,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -24221,6 +26319,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -24241,6 +26340,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -24261,6 +26361,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -24281,6 +26382,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -24300,6 +26402,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -24319,6 +26422,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -24336,6 +26440,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -24353,6 +26458,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -24370,10 +26476,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 285,
         undurDiri: 20,
         dikeluarkan: 8,
-        aktif: 114,
+        aktif: 115,
         nonAktif: 9,
         cuti: 0,
-        other: 13,
+        other: 12,
+        otherStatusMap: {
+          selesai: 2,
+          "": 10,
+        },
       },
       genderBreakdown: {
         male: 254,
@@ -24390,6 +26500,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -24407,6 +26518,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -24424,6 +26536,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -24443,6 +26556,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -24463,6 +26577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -24483,6 +26598,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -24503,6 +26619,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -24523,6 +26640,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -24543,6 +26661,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -24563,6 +26682,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -24583,6 +26703,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 17,
@@ -24602,6 +26725,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 86,
@@ -24615,10 +26741,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 2,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 27,
+            aktif: 28,
             nonAktif: 1,
             cuti: 0,
-            other: 5,
+            other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -24636,10 +26765,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 358,
         undurDiri: 23,
         dikeluarkan: 6,
-        aktif: 148,
+        aktif: 149,
         nonAktif: 12,
         cuti: 0,
-        other: 7,
+        other: 6,
+        otherStatusMap: {
+          "": 6,
+        },
       },
       genderBreakdown: {
         male: 469,
@@ -24656,6 +26788,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -24673,6 +26806,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -24692,6 +26826,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -24713,6 +26848,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -24733,6 +26869,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -24753,6 +26890,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -24773,6 +26911,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -24793,6 +26932,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -24813,6 +26953,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 57,
@@ -24833,6 +26974,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -24853,6 +26995,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 99,
@@ -24872,6 +27017,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 52,
@@ -24885,10 +27033,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 84,
+            aktif: 85,
             nonAktif: 0,
             cuti: 0,
-            other: 5,
+            other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 70,
@@ -24906,10 +27057,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 1081,
         undurDiri: 67,
         dikeluarkan: 18,
-        aktif: 202,
+        aktif: 205,
         nonAktif: 26,
         cuti: 0,
-        other: 56,
+        other: 53,
+        otherStatusMap: {
+          "": 52,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 1035,
@@ -24926,6 +27081,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -24943,6 +27101,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -24960,6 +27121,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -24977,6 +27141,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -24994,6 +27159,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -25011,6 +27179,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -25028,6 +27199,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -25045,6 +27219,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -25062,6 +27239,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -25079,6 +27259,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -25098,6 +27281,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 11,
+            otherStatusMap: {
+              "": 11,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -25115,6 +27301,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -25134,6 +27321,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -25154,6 +27342,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 94,
@@ -25174,6 +27363,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 128,
@@ -25195,6 +27385,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 49,
@@ -25216,6 +27407,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 89,
@@ -25236,6 +27428,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 98,
@@ -25256,6 +27449,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 9,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 123,
@@ -25276,6 +27472,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 115,
@@ -25296,6 +27495,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 141,
@@ -25315,6 +27515,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 74,
@@ -25328,10 +27529,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 3,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 110,
+            aktif: 113,
             nonAktif: 2,
             cuti: 0,
-            other: 4,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 78,
@@ -25349,10 +27553,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 145,
         undurDiri: 1,
         dikeluarkan: 0,
-        aktif: 17,
+        aktif: 21,
         nonAktif: 0,
         cuti: 0,
-        other: 13,
+        other: 9,
+        otherStatusMap: {
+          "": 1,
+          selesai: 8,
+        },
       },
       genderBreakdown: {
         male: 112,
@@ -25369,6 +27577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -25388,6 +27597,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -25407,6 +27617,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -25427,6 +27638,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -25447,6 +27659,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -25466,6 +27679,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -25485,6 +27699,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -25504,6 +27719,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 1,
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 31,
@@ -25523,6 +27742,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              selesai: 5,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -25536,10 +27758,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 3,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 10,
+            aktif: 14,
             nonAktif: 0,
             cuti: 0,
-            other: 4,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -25561,6 +27784,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 11,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 289,
@@ -25577,6 +27801,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -25594,6 +27819,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -25611,6 +27837,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -25630,6 +27857,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -25649,6 +27877,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -25669,6 +27898,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -25690,6 +27920,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -25710,6 +27941,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 43,
@@ -25730,6 +27962,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -25750,6 +27983,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -25770,6 +28004,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -25790,6 +28025,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -25809,6 +28045,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -25826,6 +28063,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -25847,6 +28085,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 12,
         cuti: 0,
         other: 9,
+        otherStatusMap: {
+          selesai: 3,
+          "": 6,
+        },
       },
       genderBreakdown: {
         male: 424,
@@ -25863,6 +28105,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -25883,6 +28126,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -25903,6 +28147,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 53,
@@ -25924,6 +28169,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -25944,6 +28190,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -25964,6 +28211,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -25984,6 +28232,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -26004,6 +28253,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 8,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 71,
@@ -26024,6 +28276,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              selesai: 1,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 55,
@@ -26043,6 +28299,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 3,
+              selesai: 2,
+            },
           },
           genderBreakdown: {
             male: 46,
@@ -26060,6 +28320,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 60,
@@ -26077,10 +28340,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 252,
         undurDiri: 9,
         dikeluarkan: 0,
-        aktif: 49,
+        aktif: 50,
         nonAktif: 5,
         cuti: 0,
-        other: 3,
+        other: 2,
+        otherStatusMap: {
+          selesai: 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 265,
@@ -26097,6 +28364,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -26116,6 +28384,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -26135,6 +28404,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -26156,6 +28426,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -26176,6 +28447,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -26195,6 +28467,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -26215,6 +28488,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -26235,6 +28509,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -26255,6 +28530,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 24,
@@ -26274,6 +28552,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -26287,10 +28566,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 2,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 33,
+            aktif: 34,
             nonAktif: 1,
             cuti: 0,
-            other: 2,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 31,
@@ -26312,6 +28594,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 113,
@@ -26328,6 +28613,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -26348,6 +28634,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -26368,6 +28655,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -26388,6 +28676,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -26407,6 +28696,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -26426,6 +28716,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -26445,6 +28736,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -26464,6 +28756,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -26483,6 +28776,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -26502,6 +28796,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -26519,6 +28814,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -26540,6 +28838,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 7,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 94,
@@ -26556,6 +28857,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -26576,6 +28878,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -26596,6 +28899,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -26616,6 +28920,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -26636,6 +28941,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -26656,6 +28962,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -26676,6 +28983,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -26696,6 +29004,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -26716,6 +29027,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -26735,6 +29047,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -26752,6 +29065,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -26773,6 +29087,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 9,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 169,
@@ -26789,6 +29106,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -26808,6 +29126,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -26827,6 +29146,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -26847,6 +29167,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -26866,6 +29187,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -26886,6 +29208,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -26906,6 +29229,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -26926,6 +29250,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -26946,6 +29271,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 39,
@@ -26966,6 +29292,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -26985,6 +29312,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 20,
@@ -27002,6 +29332,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -27023,6 +29354,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 2,
@@ -27039,6 +29371,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -27060,6 +29393,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 43,
+        otherStatusMap: {
+          "": 43,
+        },
       },
       genderBreakdown: {
         male: 53,
@@ -27076,6 +29412,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 12,
+            otherStatusMap: {
+              "": 12,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27093,6 +29432,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27110,6 +29452,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              "": 6,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27127,6 +29472,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27144,6 +29492,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27161,6 +29512,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              "": 5,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27178,6 +29532,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27195,6 +29552,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -27212,6 +29572,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27231,6 +29592,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27250,6 +29612,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27269,6 +29632,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -27289,6 +29653,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27308,6 +29673,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -27328,6 +29694,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -27347,6 +29714,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -27366,6 +29734,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -27383,6 +29752,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27404,6 +29774,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 32,
@@ -27420,6 +29791,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27440,6 +29812,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -27460,6 +29833,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -27477,6 +29851,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27494,6 +29869,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27511,6 +29887,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -27532,6 +29909,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 19,
@@ -27548,6 +29926,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -27568,6 +29947,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27588,6 +29968,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -27607,6 +29988,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27624,6 +30006,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -27641,6 +30024,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27662,6 +30046,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 14,
@@ -27678,6 +30063,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27695,6 +30081,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27714,6 +30101,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27733,6 +30121,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27750,6 +30139,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27769,6 +30159,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27786,6 +30177,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -27807,6 +30199,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 16,
@@ -27823,6 +30216,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -27842,6 +30236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -27859,6 +30254,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -27876,6 +30272,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -27897,6 +30294,11 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 36,
         cuti: 0,
         other: 5,
+        otherStatusMap: {
+          selesai: 1,
+          "": 2,
+          "meninggal dunia": 2,
+        },
       },
       genderBreakdown: {
         male: 744,
@@ -27913,6 +30315,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27930,6 +30333,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -27949,6 +30353,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -27969,6 +30374,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -27989,6 +30395,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 71,
@@ -28010,6 +30417,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 45,
@@ -28031,6 +30439,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 71,
@@ -28051,6 +30462,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -28071,6 +30483,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 107,
@@ -28091,6 +30504,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 15,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              "": 2,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 86,
@@ -28111,6 +30528,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 12,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 113,
@@ -28130,6 +30548,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 61,
@@ -28147,6 +30568,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 83,
@@ -28168,6 +30590,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 1,
+          selesai: 1,
+        },
       },
       genderBreakdown: {
         male: 150,
@@ -28184,6 +30610,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -28201,6 +30628,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -28221,6 +30649,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -28241,6 +30670,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -28260,6 +30690,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -28280,6 +30711,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -28300,6 +30732,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -28320,6 +30753,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -28340,6 +30774,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -28360,6 +30795,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 14,
@@ -28379,6 +30817,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 22,
@@ -28396,6 +30837,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -28413,10 +30855,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 345,
         undurDiri: 16,
         dikeluarkan: 3,
-        aktif: 91,
+        aktif: 94,
         nonAktif: 7,
         cuti: 0,
-        other: 9,
+        other: 6,
+        otherStatusMap: {
+          selesai: 4,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 203,
@@ -28433,6 +30879,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -28450,6 +30899,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -28467,6 +30917,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -28484,6 +30935,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -28503,6 +30955,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -28523,6 +30976,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -28543,6 +30997,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -28563,6 +31018,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -28583,6 +31039,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -28603,6 +31060,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -28622,6 +31080,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 24,
@@ -28642,6 +31101,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -28662,6 +31122,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -28679,6 +31140,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              selesai: 4,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -28692,10 +31156,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 56,
+            aktif: 59,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -28713,10 +31178,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 391,
         undurDiri: 35,
         dikeluarkan: 4,
-        aktif: 133,
+        aktif: 150,
         nonAktif: 13,
         cuti: 1,
-        other: 171,
+        other: 154,
+        otherStatusMap: {
+          "": 56,
+          selesai: 98,
+        },
       },
       genderBreakdown: {
         male: 244,
@@ -28733,6 +31202,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -28750,6 +31220,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -28770,6 +31241,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -28790,6 +31262,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -28811,6 +31284,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -28832,6 +31306,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -28852,6 +31327,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -28872,6 +31348,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 4,
+            otherStatusMap: {
+              "": 4,
+            },
           },
           genderBreakdown: {
             male: 18,
@@ -28892,6 +31371,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 49,
+            otherStatusMap: {
+              "": 49,
+            },
           },
           genderBreakdown: {
             male: 19,
@@ -28912,6 +31394,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 33,
+            otherStatusMap: {
+              selesai: 33,
+            },
           },
           genderBreakdown: {
             male: 35,
@@ -28931,6 +31416,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 67,
+            otherStatusMap: {
+              selesai: 65,
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 59,
@@ -28944,10 +31433,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 69,
+            aktif: 86,
             nonAktif: 0,
             cuti: 1,
-            other: 18,
+            other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 24,
@@ -28969,6 +31461,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          selesai: 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 259,
@@ -28985,6 +31481,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -29002,6 +31499,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -29021,6 +31519,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -29040,6 +31539,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -29060,6 +31560,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -29080,6 +31581,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -29100,6 +31602,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -29120,6 +31623,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 42,
@@ -29140,6 +31646,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 25,
@@ -29157,6 +31666,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 43,
@@ -29174,6 +31684,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -29195,6 +31706,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 94,
@@ -29211,6 +31725,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -29228,6 +31743,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -29248,6 +31764,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -29268,6 +31785,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -29289,6 +31807,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -29308,6 +31827,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -29328,6 +31848,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -29348,6 +31869,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 18,
@@ -29368,6 +31892,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -29387,6 +31912,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -29404,6 +31930,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -29421,6 +31948,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -29442,6 +31970,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 72,
@@ -29458,6 +31987,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -29477,6 +32007,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -29497,6 +32028,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -29518,6 +32050,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -29538,6 +32071,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -29558,6 +32092,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -29578,6 +32113,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -29597,6 +32133,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -29616,6 +32153,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -29633,6 +32171,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -29650,6 +32189,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -29671,6 +32211,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 44,
@@ -29687,6 +32228,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -29707,6 +32249,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -29727,6 +32270,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -29747,6 +32291,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -29767,6 +32312,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -29787,6 +32333,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -29807,6 +32354,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -29826,6 +32374,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -29846,6 +32395,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -29863,6 +32413,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -29880,6 +32431,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -29901,6 +32453,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 137,
@@ -29917,6 +32470,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -29937,6 +32491,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -29957,6 +32512,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -29976,6 +32532,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -29995,6 +32552,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -30012,6 +32570,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -30033,6 +32592,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 3,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 119,
@@ -30049,6 +32611,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -30068,6 +32631,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -30088,6 +32652,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -30108,6 +32673,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -30127,6 +32693,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -30146,6 +32713,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -30166,6 +32734,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -30185,6 +32756,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -30202,6 +32774,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -30219,6 +32792,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -30236,6 +32810,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -30253,10 +32828,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 103,
         undurDiri: 8,
         dikeluarkan: 0,
-        aktif: 22,
+        aktif: 23,
         nonAktif: 3,
         cuti: 0,
-        other: 11,
+        other: 10,
+        otherStatusMap: {
+          selesai: 2,
+          "": 8,
+        },
       },
       genderBreakdown: {
         male: 79,
@@ -30273,6 +32852,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -30290,6 +32870,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -30310,6 +32891,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -30330,6 +32912,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -30349,6 +32932,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -30368,6 +32952,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -30387,6 +32972,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -30407,6 +32993,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -30426,6 +33013,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 7,
+            otherStatusMap: {
+              "": 7,
+            },
           },
           genderBreakdown: {
             male: 17,
@@ -30445,6 +33035,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              selesai: 2,
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -30458,10 +33052,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 8,
             nonAktif: 0,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -30479,6 +33074,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -30496,10 +33092,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 619,
         undurDiri: 29,
         dikeluarkan: 5,
-        aktif: 159,
+        aktif: 163,
         nonAktif: 26,
         cuti: 0,
-        other: 17,
+        other: 13,
+        otherStatusMap: {
+          selesai: 4,
+          "": 8,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 310,
@@ -30516,6 +33117,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -30533,6 +33135,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -30550,6 +33153,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -30569,6 +33173,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -30589,6 +33194,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -30609,6 +33215,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 36,
@@ -30629,6 +33236,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -30649,6 +33257,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 26,
@@ -30669,6 +33278,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -30689,6 +33299,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 15,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -30709,6 +33320,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 9,
+            otherStatusMap: {
+              "": 8,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 52,
@@ -30725,10 +33340,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 55,
             undurDiri: 1,
             dikeluarkan: 0,
-            aktif: 7,
+            aktif: 9,
             nonAktif: 1,
             cuti: 0,
-            other: 3,
+            other: 1,
+            otherStatusMap: {
+              selesai: 1,
+            },
           },
           genderBreakdown: {
             male: 27,
@@ -30748,6 +33366,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 33,
@@ -30761,10 +33382,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 81,
+            aktif: 83,
             nonAktif: 2,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -30786,6 +33408,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 2,
@@ -30802,6 +33425,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -30823,6 +33447,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 32,
@@ -30839,6 +33464,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -30858,6 +33484,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -30877,6 +33504,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -30894,6 +33522,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -30911,6 +33540,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -30932,6 +33562,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 40,
@@ -30948,6 +33581,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -30967,6 +33601,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -30986,6 +33623,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -31006,6 +33644,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -31025,6 +33664,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -31042,6 +33682,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -31063,6 +33704,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 40,
@@ -31079,6 +33723,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -31098,6 +33743,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -31117,6 +33763,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -31137,6 +33784,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -31156,6 +33804,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -31176,6 +33825,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -31195,6 +33847,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -31214,6 +33867,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -31231,6 +33885,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -31248,6 +33903,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -31265,10 +33921,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 231,
         undurDiri: 27,
         dikeluarkan: 2,
-        aktif: 38,
+        aktif: 41,
         nonAktif: 6,
         cuti: 0,
-        other: 14,
+        other: 11,
+        otherStatusMap: {
+          selesai: 11,
+        },
       },
       genderBreakdown: {
         male: 129,
@@ -31285,6 +33944,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -31302,6 +33962,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -31321,6 +33982,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -31342,6 +34004,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -31362,6 +34025,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -31382,6 +34046,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -31402,6 +34067,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -31422,6 +34088,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -31442,6 +34109,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 6,
+            otherStatusMap: {
+              selesai: 6,
+            },
           },
           genderBreakdown: {
             male: 13,
@@ -31461,6 +34131,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 5,
+            otherStatusMap: {
+              selesai: 5,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -31474,10 +34147,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 25,
+            aktif: 28,
             nonAktif: 0,
             cuti: 0,
-            other: 3,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -31495,10 +34169,15 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 4037,
         undurDiri: 144,
         dikeluarkan: 42,
-        aktif: 469,
+        aktif: 480,
         nonAktif: 85,
         cuti: 0,
-        other: 57,
+        other: 46,
+        otherStatusMap: {
+          "": 19,
+          selesai: 25,
+          mutasi: 2,
+        },
       },
       genderBreakdown: {
         male: 2996,
@@ -31515,6 +34194,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -31534,6 +34214,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -31554,6 +34235,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 68,
@@ -31574,6 +34256,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 276,
@@ -31595,6 +34278,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 311,
@@ -31616,6 +34302,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 105,
@@ -31636,6 +34323,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 343,
@@ -31657,6 +34345,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 376,
@@ -31677,6 +34366,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 23,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 422,
@@ -31697,6 +34387,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 25,
             cuti: 0,
             other: 17,
+            otherStatusMap: {
+              "": 15,
+              mutasi: 2,
+            },
           },
           genderBreakdown: {
             male: 352,
@@ -31717,6 +34411,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 20,
             cuti: 0,
             other: 14,
+            otherStatusMap: {
+              selesai: 14,
+            },
           },
           genderBreakdown: {
             male: 284,
@@ -31732,10 +34429,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 368,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 109,
+            aktif: 110,
             nonAktif: 15,
             cuti: 0,
-            other: 12,
+            other: 11,
+            otherStatusMap: {
+              selesai: 11,
+            },
           },
           genderBreakdown: {
             male: 317,
@@ -31749,10 +34449,13 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 2,
             dikeluarkan: 0,
-            aktif: 343,
+            aktif: 353,
             nonAktif: 2,
             cuti: 0,
-            other: 12,
+            other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 140,
@@ -31770,10 +34473,13 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 2628,
         undurDiri: 99,
         dikeluarkan: 29,
-        aktif: 579,
+        aktif: 580,
         nonAktif: 133,
         cuti: 0,
-        other: 2,
+        other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 1937,
@@ -31790,6 +34496,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 192,
@@ -31811,6 +34518,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 79,
@@ -31832,6 +34540,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 191,
@@ -31852,6 +34563,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 242,
@@ -31872,6 +34584,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 23,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 278,
@@ -31892,6 +34605,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 46,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 297,
@@ -31912,6 +34626,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 33,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 243,
@@ -31927,10 +34642,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 359,
             undurDiri: 4,
             dikeluarkan: 0,
-            aktif: 93,
+            aktif: 94,
             nonAktif: 28,
             cuti: 0,
-            other: 1,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 307,
@@ -31948,6 +34664,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 108,
@@ -31969,6 +34686,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 41,
@@ -31985,6 +34703,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -32004,6 +34723,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32023,6 +34743,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 25,
@@ -32040,6 +34761,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32061,6 +34783,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 66,
@@ -32077,6 +34802,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32096,6 +34822,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -32115,6 +34842,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32134,6 +34862,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32156,6 +34885,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -32178,6 +34908,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32200,6 +34931,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -32222,6 +34954,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32245,6 +34978,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -32268,6 +35002,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -32289,6 +35024,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32310,6 +35046,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -32330,6 +35067,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -32347,6 +35085,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -32364,6 +35105,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -32385,6 +35129,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 10,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 96,
@@ -32401,6 +35148,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -32421,6 +35169,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32442,6 +35191,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -32465,6 +35215,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -32487,6 +35238,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -32510,6 +35262,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -32533,6 +35286,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32554,6 +35308,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -32575,6 +35332,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -32596,6 +35354,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -32616,6 +35375,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -32633,6 +35393,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -32650,6 +35411,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -32671,6 +35433,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 7,
@@ -32687,6 +35450,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32706,6 +35470,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -32723,6 +35488,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32740,6 +35506,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32759,6 +35526,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -32778,6 +35546,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -32795,6 +35564,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32812,6 +35582,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32833,6 +35604,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 46,
@@ -32849,6 +35621,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -32866,6 +35639,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -32887,6 +35661,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -32908,6 +35683,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -32929,6 +35705,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -32948,6 +35725,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -32968,6 +35746,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -32989,6 +35768,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33011,6 +35791,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33031,6 +35812,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -33050,6 +35832,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -33067,6 +35850,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33084,6 +35868,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -33105,6 +35890,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 3,
+        otherStatusMap: {
+          "": 2,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 24,
@@ -33121,6 +35910,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33141,6 +35931,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33162,6 +35953,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -33181,6 +35973,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -33201,6 +35994,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33221,6 +36015,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -33241,6 +36036,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -33261,6 +36057,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -33281,6 +36080,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 2,
+            otherStatusMap: {
+              "": 2,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -33301,6 +36103,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33318,6 +36121,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33335,6 +36139,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -33352,6 +36157,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33373,6 +36179,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 68,
@@ -33389,6 +36199,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33408,6 +36219,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33428,6 +36240,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33450,6 +36263,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -33472,6 +36286,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -33494,6 +36309,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33516,6 +36332,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33539,6 +36356,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33560,6 +36378,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -33580,6 +36399,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -33601,6 +36421,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 12,
@@ -33621,6 +36444,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -33640,6 +36466,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33657,6 +36484,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33678,6 +36506,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 39,
@@ -33694,6 +36525,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33713,6 +36545,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33733,6 +36566,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33752,6 +36586,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33772,6 +36607,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -33792,6 +36628,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33812,6 +36649,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -33832,6 +36670,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -33852,6 +36691,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -33871,6 +36711,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33888,6 +36729,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -33905,6 +36747,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -33926,6 +36771,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 3,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 28,
@@ -33942,6 +36788,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -33962,6 +36809,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -33982,6 +36830,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34001,6 +36850,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34020,6 +36870,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34040,6 +36891,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34059,6 +36911,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -34078,6 +36931,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -34095,6 +36949,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34112,6 +36967,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -34129,6 +36985,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34150,6 +37007,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 7,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 27,
@@ -34166,6 +37026,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34185,6 +37046,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34204,6 +37066,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -34225,6 +37088,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 2,
@@ -34244,6 +37110,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34264,6 +37131,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34283,6 +37151,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34303,6 +37172,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34320,6 +37190,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34337,6 +37208,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -34354,6 +37226,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34375,6 +37248,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 47,
@@ -34391,6 +37267,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -34408,6 +37285,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34428,6 +37306,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34449,6 +37328,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34469,6 +37349,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34490,6 +37371,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -34511,6 +37393,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -34532,6 +37415,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34553,6 +37437,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -34573,6 +37458,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -34592,6 +37480,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34609,6 +37498,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -34626,6 +37516,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -34647,6 +37538,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 32,
@@ -34663,6 +37557,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34682,6 +37577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34701,6 +37597,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34720,6 +37617,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34740,6 +37638,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -34757,6 +37656,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -34776,6 +37676,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -34795,6 +37696,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -34814,6 +37718,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34834,6 +37739,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34851,6 +37757,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -34868,6 +37775,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -34885,6 +37793,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -34906,6 +37815,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 33,
@@ -34922,6 +37834,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34942,6 +37855,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -34962,6 +37876,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -34982,6 +37897,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35003,6 +37919,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35024,6 +37941,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -35045,6 +37963,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -35067,6 +37986,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35086,6 +38006,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -35106,6 +38027,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35123,6 +38045,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -35140,6 +38065,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35161,6 +38087,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 4,
+        otherStatusMap: {
+          "meninggal dunia": 2,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 49,
@@ -35177,6 +38107,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35196,6 +38127,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35216,6 +38148,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -35235,6 +38170,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -35255,6 +38191,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -35275,6 +38214,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -35292,6 +38232,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35312,6 +38253,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -35331,6 +38275,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -35348,6 +38295,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -35365,6 +38313,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35382,6 +38331,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35403,6 +38353,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 20,
         cuti: 0,
         other: 3,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 255,
@@ -35419,6 +38373,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -35436,6 +38391,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -35457,6 +38413,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -35479,6 +38436,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -35502,6 +38460,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -35525,6 +38484,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 28,
@@ -35547,6 +38509,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -35569,6 +38532,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 23,
@@ -35591,6 +38555,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -35612,6 +38577,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -35632,6 +38598,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 5,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 37,
@@ -35652,6 +38621,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -35669,6 +38639,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 22,
@@ -35686,6 +38659,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -35707,6 +38681,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 4,
         cuti: 0,
         other: 3,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 55,
@@ -35723,6 +38701,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -35743,6 +38722,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -35765,6 +38747,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35785,6 +38768,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -35806,6 +38790,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -35828,6 +38813,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -35849,6 +38835,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -35870,6 +38857,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -35891,6 +38881,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -35910,6 +38901,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -35927,6 +38919,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 6,
@@ -35944,6 +38939,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -35965,6 +38961,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 38,
@@ -35981,6 +38978,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36000,6 +38998,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36021,6 +39020,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36041,6 +39041,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36061,6 +39062,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36082,6 +39084,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36102,6 +39105,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36123,6 +39127,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36143,6 +39148,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -36164,6 +39170,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -36183,6 +39190,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -36200,6 +39208,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36217,6 +39226,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36238,6 +39248,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 37,
@@ -36254,6 +39267,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36273,6 +39287,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36290,6 +39305,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36310,6 +39326,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -36332,6 +39349,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36351,6 +39369,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36368,6 +39387,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36387,6 +39407,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -36407,6 +39430,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -36424,6 +39448,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -36441,6 +39466,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36458,6 +39484,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36479,6 +39506,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 3,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 16,
@@ -36495,6 +39523,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -36514,6 +39543,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36531,6 +39561,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36550,6 +39581,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36567,6 +39599,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36586,6 +39619,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36605,6 +39639,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36622,6 +39657,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -36639,6 +39675,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36656,6 +39693,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36677,6 +39715,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 2,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 21,
@@ -36693,6 +39732,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36712,6 +39752,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36732,6 +39773,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36752,6 +39794,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -36769,6 +39812,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36789,6 +39833,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36808,6 +39853,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36827,6 +39873,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36847,6 +39894,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36864,6 +39912,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36884,6 +39933,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -36901,6 +39951,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -36922,6 +39973,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 6,
@@ -36938,6 +39990,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36957,6 +40010,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -36976,6 +40030,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -36993,6 +40048,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37010,6 +40066,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -37031,6 +40088,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 86,
@@ -37047,6 +40105,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37064,6 +40123,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37083,6 +40143,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37104,6 +40165,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -37125,6 +40187,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37144,6 +40207,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37166,6 +40230,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37188,6 +40253,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -37209,6 +40275,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -37230,6 +40297,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -37250,6 +40318,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -37270,6 +40339,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37287,6 +40357,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -37304,6 +40375,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -37325,6 +40397,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 10,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 37,
@@ -37341,6 +40416,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37360,6 +40436,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37379,6 +40456,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37398,6 +40476,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37418,6 +40497,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37437,6 +40517,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -37457,6 +40538,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 6,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -37477,6 +40559,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -37497,6 +40582,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -37516,6 +40602,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37533,6 +40620,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -37550,10 +40640,14 @@ export const ITB_STATISTICS: OverallStatistics = {
         lulus: 41,
         undurDiri: 6,
         dikeluarkan: 2,
-        aktif: 38,
+        aktif: 40,
         nonAktif: 4,
         cuti: 0,
-        other: 6,
+        other: 4,
+        otherStatusMap: {
+          selesai: 3,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 44,
@@ -37570,6 +40664,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -37590,6 +40685,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -37612,6 +40708,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -37631,6 +40728,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37651,6 +40749,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -37672,6 +40771,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -37692,6 +40792,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37713,6 +40814,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 1,
@@ -37734,6 +40838,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37754,6 +40859,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -37773,6 +40879,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37790,6 +40897,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 3,
+            otherStatusMap: {
+              selesai: 3,
+            },
           },
           genderBreakdown: {
             male: 9,
@@ -37803,10 +40913,11 @@ export const ITB_STATISTICS: OverallStatistics = {
             lulus: 0,
             undurDiri: 0,
             dikeluarkan: 0,
-            aktif: 9,
+            aktif: 11,
             nonAktif: 0,
             cuti: 0,
-            other: 2,
+            other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37828,6 +40939,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 31,
@@ -37844,6 +40958,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37864,6 +40979,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37883,6 +40999,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -37902,6 +41019,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -37924,6 +41042,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -37945,6 +41064,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -37967,6 +41087,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -37987,6 +41108,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 3,
@@ -38006,6 +41130,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -38023,6 +41148,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -38042,6 +41168,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38059,6 +41186,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38080,6 +41208,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 40,
@@ -38096,6 +41228,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -38115,6 +41248,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -38134,6 +41268,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38155,6 +41290,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38175,6 +41311,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -38197,6 +41336,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38218,6 +41358,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38238,6 +41379,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 5,
@@ -38258,6 +41402,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -38278,6 +41423,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38297,6 +41443,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -38314,6 +41461,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -38335,6 +41483,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 5,
         cuti: 0,
         other: 2,
+        otherStatusMap: {
+          "": 2,
+        },
       },
       genderBreakdown: {
         male: 71,
@@ -38351,6 +41502,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -38368,6 +41520,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -38387,6 +41540,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38409,6 +41563,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -38430,6 +41585,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38451,6 +41607,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -38473,6 +41630,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38494,6 +41652,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -38514,6 +41673,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -38534,6 +41694,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -38551,6 +41714,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -38568,6 +41732,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -38589,6 +41756,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 6,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 8,
@@ -38605,6 +41773,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38624,6 +41793,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 2,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -38643,6 +41813,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -38660,6 +41831,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -38677,6 +41849,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -38698,6 +41871,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 26,
         cuti: 0,
         other: 8,
+        otherStatusMap: {
+          "": 7,
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 155,
@@ -38714,6 +41891,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -38734,6 +41912,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -38754,6 +41933,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -38776,6 +41956,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -38796,6 +41977,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -38818,6 +42000,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -38840,6 +42023,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 3,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -38863,6 +42047,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -38884,6 +42069,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 8,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -38905,6 +42091,10 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 11,
             cuti: 0,
             other: 8,
+            otherStatusMap: {
+              "": 7,
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 30,
@@ -38925,6 +42115,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 4,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -38944,6 +42135,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -38961,6 +42153,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 29,
@@ -38982,6 +42175,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -38998,6 +42194,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -39019,6 +42218,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -39035,6 +42237,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -39056,6 +42261,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -39072,6 +42280,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -39093,6 +42304,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 0,
@@ -39109,6 +42323,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -39130,6 +42347,10 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 228,
+        otherStatusMap: {
+          "": 212,
+          selesai: 16,
+        },
       },
       genderBreakdown: {
         male: 7,
@@ -39146,6 +42367,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 16,
+            otherStatusMap: {
+              selesai: 16,
+            },
           },
           genderBreakdown: {
             male: 7,
@@ -39163,6 +42387,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 212,
+            otherStatusMap: {
+              "": 212,
+            },
           },
           genderBreakdown: {
             male: 0,
@@ -39184,6 +42411,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 20,
@@ -39200,6 +42428,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39217,6 +42446,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -39234,6 +42464,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -39253,6 +42484,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -39272,6 +42504,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -39295,6 +42528,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 18,
@@ -39311,6 +42545,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -39330,6 +42565,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -39349,6 +42585,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -39368,6 +42605,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -39392,6 +42630,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 4,
@@ -39408,6 +42647,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -39425,6 +42665,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39444,6 +42685,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39464,6 +42706,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39483,6 +42726,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -39506,6 +42750,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 150,
@@ -39522,6 +42767,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39539,6 +42785,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -39556,6 +42803,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -39573,6 +42821,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 21,
@@ -39592,6 +42841,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -39611,6 +42861,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -39628,6 +42879,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -39645,6 +42897,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -39666,6 +42919,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 12,
@@ -39682,6 +42936,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -39699,6 +42954,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -39716,6 +42972,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -39733,6 +42990,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -39754,6 +43012,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 9,
@@ -39770,6 +43031,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 8,
@@ -39787,6 +43051,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -39808,6 +43073,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 100,
@@ -39824,6 +43090,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 22,
@@ -39841,6 +43108,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -39858,6 +43126,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -39875,6 +43144,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -39892,6 +43162,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -39909,6 +43180,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -39930,6 +43202,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 220,
@@ -39946,6 +43219,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -39965,6 +43239,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -39984,6 +43259,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -40001,6 +43277,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -40018,6 +43295,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -40035,6 +43313,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 56,
@@ -40052,6 +43331,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 64,
@@ -40069,6 +43349,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -40090,6 +43371,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 151,
@@ -40106,6 +43388,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -40123,6 +43406,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 54,
@@ -40140,6 +43424,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 35,
@@ -40157,6 +43442,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -40174,6 +43460,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -40191,6 +43478,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -40212,6 +43500,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 50,
@@ -40228,6 +43517,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -40245,6 +43535,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -40262,6 +43553,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -40279,6 +43571,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -40296,6 +43589,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -40317,6 +43611,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 25,
@@ -40333,6 +43628,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -40350,6 +43646,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -40367,6 +43664,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -40384,6 +43682,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -40401,6 +43700,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -40422,6 +43722,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 150,
@@ -40438,6 +43739,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -40455,6 +43757,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 31,
@@ -40472,6 +43775,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 32,
@@ -40489,6 +43793,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -40506,6 +43811,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 19,
@@ -40523,6 +43829,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -40544,6 +43851,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 261,
@@ -40560,6 +43868,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 27,
@@ -40577,6 +43886,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 37,
@@ -40594,6 +43904,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -40611,6 +43922,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 62,
@@ -40628,6 +43940,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 42,
@@ -40645,6 +43958,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 30,
@@ -40666,6 +43980,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 233,
@@ -40682,6 +43997,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 17,
@@ -40699,6 +44015,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 57,
@@ -40716,6 +44033,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 46,
@@ -40733,6 +44051,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 38,
@@ -40750,6 +44069,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 34,
@@ -40767,6 +44087,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 41,
@@ -40788,6 +44109,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 58,
@@ -40804,6 +44126,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 20,
@@ -40821,6 +44144,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -40838,6 +44162,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -40855,6 +44180,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -40872,6 +44198,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -40889,6 +44216,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -40910,6 +44238,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 52,
@@ -40926,6 +44255,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -40943,6 +44273,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -40960,6 +44291,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -40977,6 +44309,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 12,
@@ -40994,6 +44327,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 14,
@@ -41011,6 +44345,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -41032,6 +44367,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 0,
@@ -41048,6 +44384,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -41069,6 +44406,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 24,
@@ -41085,6 +44423,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 13,
@@ -41102,6 +44441,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -41119,6 +44459,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -41136,6 +44477,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -41153,6 +44495,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -41174,6 +44517,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "": 1,
+        },
       },
       genderBreakdown: {
         male: 27,
@@ -41190,6 +44536,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -41207,6 +44554,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "": 1,
+            },
           },
           genderBreakdown: {
             male: 4,
@@ -41224,6 +44574,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -41241,6 +44592,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -41258,6 +44610,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -41279,6 +44632,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 27,
@@ -41295,6 +44649,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -41312,6 +44667,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -41332,6 +44688,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 18,
@@ -41352,6 +44709,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -41371,6 +44729,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -41394,6 +44753,9 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 1,
+        otherStatusMap: {
+          "meninggal dunia": 1,
+        },
       },
       genderBreakdown: {
         male: 488,
@@ -41410,6 +44772,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -41427,6 +44790,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -41447,6 +44811,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -41467,6 +44832,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -41487,6 +44853,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -41507,6 +44874,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -41527,6 +44895,9 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 1,
+            otherStatusMap: {
+              "meninggal dunia": 1,
+            },
           },
           genderBreakdown: {
             male: 62,
@@ -41544,6 +44915,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 84,
@@ -41561,6 +44933,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 98,
@@ -41578,6 +44951,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 84,
@@ -41595,6 +44969,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 63,
@@ -41612,6 +44987,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 51,
@@ -41633,6 +45009,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 1,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 36,
@@ -41649,6 +45026,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -41666,6 +45044,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -41683,6 +45062,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -41700,6 +45080,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
@@ -41717,6 +45098,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -41734,6 +45116,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 1,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 16,
@@ -41755,6 +45138,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 0,
@@ -41771,6 +45155,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -41792,6 +45177,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 50,
@@ -41808,6 +45194,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 15,
@@ -41825,6 +45212,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -41842,6 +45230,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 5,
@@ -41859,6 +45248,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -41876,6 +45266,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -41893,6 +45284,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 9,
@@ -41914,6 +45306,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 18,
@@ -41930,6 +45323,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 3,
@@ -41947,6 +45341,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -41964,6 +45359,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 7,
@@ -41981,6 +45377,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 2,
@@ -42002,6 +45399,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 43,
@@ -42018,6 +45416,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 11,
@@ -42035,6 +45434,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -42052,6 +45452,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 8,
@@ -42069,6 +45470,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 10,
@@ -42086,6 +45488,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 4,
@@ -42103,6 +45506,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -42124,6 +45528,7 @@ export const ITB_STATISTICS: OverallStatistics = {
         nonAktif: 0,
         cuti: 0,
         other: 0,
+        otherStatusMap: {},
       },
       genderBreakdown: {
         male: 7,
@@ -42140,6 +45545,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 0,
@@ -42157,6 +45563,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 6,
@@ -42176,6 +45583,7 @@ export const ITB_STATISTICS: OverallStatistics = {
             nonAktif: 0,
             cuti: 0,
             other: 0,
+            otherStatusMap: {},
           },
           genderBreakdown: {
             male: 1,
