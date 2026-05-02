@@ -16,6 +16,7 @@ export interface StatusCount {
   nonAktif: number;
   cuti: number;
   other: number;
+  otherStatusMap: { [status: string]: number };
 }
 
 export interface GenderCount {
